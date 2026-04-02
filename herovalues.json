@@ -561,11 +561,11 @@
   },
   {
     "Hero Name": "Sylvanas",
-    "Wave Clear": 8,
-    "Engage": 5,
+    "Wave Clear": 7,
+    "Engage": 4,
     "Peel": 2,
     "TeamSustain": 0,
-    "SelfSustain": 2
+    "SelfSustain": 3
   },
   {
     "Hero Name": "Tassadar",
