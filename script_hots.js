@@ -416,10 +416,15 @@ let champ_waveclear_adjusted = champ_waveclear * final_waveclear_value
 let champ_sustain_adjusted = champ_sustain * final_sustain_value
 
 
-let blueCount = blue.length()
-let redCount = red.length()
-let totalCount = blueCount + redCount
 
+let totalCount = 0
+
+for(let thischamp of blue){
+  totalCount += 1
+}
+for(let thischamp of red){
+  totalCount += 1
+}
 
 blindable = blindLookup[champ]?.Blindable ?? 0
 
