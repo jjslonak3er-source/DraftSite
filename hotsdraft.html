@@ -11,13 +11,7 @@
 <body>
 <a href="index.html" class="back-button">← Home</a>
 <h1>Whisper Draft Simulator</h1>
-<!-- Map Selection -->
-<div class="map-selection">
-  <label for="mapSelect">Select Map: </label>
-  <select id="mapSelect">
-    <option value="">Loading maps...</option>
-  </select>
-</div>
+
 
 
 
@@ -38,13 +32,17 @@
 <div class="champion-area">
 
 <div class="role-filters">
+  <button class="role-btn" data-role="Tank">Tank</button>
+  <button class="role-btn" data-role="Offlane">Offlane</button>
+  <button class="role-btn" data-role="RangedDPS">DPS</button>
+  <button class="role-btn" data-role="Flex">Flex</button>
+  <button class="role-btn" data-role="Healer">Healer</button>
 
-<button class="role-btn" data-role="Tank">Tank</button>
-<button class="role-btn" data-role="Offlane">Offlane</button>
-<button class="role-btn" data-role="RangedDPS">DPS</button>
-<button class="role-btn" data-role="Flex">Flex</button>
-<button class="role-btn" data-role="Healer">Healer</button>
-
+  <!-- Inline Map Dropdown -->
+  <label for="mapSelect" class="map-label">Map:</label>
+  <select id="mapSelect" class="map-select">
+    <option value="">Loading maps...</option>
+  </select>
 </div>
 
 <div class="search-container">
