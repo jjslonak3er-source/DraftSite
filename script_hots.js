@@ -12,6 +12,7 @@ let roleScores = {}
 let roleLookup = {}
 let statScores = {}
 let statLookup = {}
+let blindLookup = {}
 let activeRole = null
 
 /* -----------------------------
@@ -191,6 +192,7 @@ roleScores = await fetch("hotsroles.json").then(r=>r.json())
 
 const roles = await fetch("hotsroles.json").then(r=>r.json())
 const stats = await fetch("herovalues.json").then(r=>r.json())
+const blind = await fetch("hotsblindable.json").then(r=>r.json())
 
 
 roles.forEach(r => {
@@ -216,6 +218,13 @@ stats.forEach(r => {
   }
 
 })
+
+blind.forEach(r => {
+  blindLookup[r["Hero Name"]] = {
+    Blindable: r.Blindable
+  }
+})
+
 
 
 console.log("Pairings loaded:",Object.keys(pairingLookup).length)
@@ -401,12 +410,24 @@ let champ_waveclear_adjusted = champ_waveclear * final_waveclear_value
 let champ_sustain_adjusted = champ_sustain * final_sustain_value
 
 
+let blueCount = blue.length()
+let redCount = red.length()
+let totalCount = blueCount + redCount
+
+
+let blindable = blindLookup[champ]?.Blindable ?? 0
+
+if(totalCount > 3){
+  blindLookup = 1
+} 
+
+
 
 
 let role_score = champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted
 let stat_score = champ_engage_adjusted + champ_peel_adjusted + champ_waveclear_adjusted + champ_sustain_adjusted
 
-let score = (((pairScore + matchScore)^2)/100) * role_score * stat_score
+let score = (((pairScore + matchScore)^2)/100) * role_score * stat_score * blindable
 
 results.push([champ,score])
 
