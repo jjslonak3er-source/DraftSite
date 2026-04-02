@@ -89,11 +89,11 @@
   },
   {
     "Hero Name": "Brightwing",
-    "Wave Clear": 5.5,
-    "Engage": 3.5,
+    "Wave Clear": 6,
+    "Engage": 4,
     "Peel": 7,
-    "TeamSustain": 7,
-    "SelfSustain": 8
+    "TeamSustain": 8,
+    "SelfSustain": 9
   },
   {
     "Hero Name": "Cassia",
