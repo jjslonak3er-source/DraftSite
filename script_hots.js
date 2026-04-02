@@ -410,8 +410,8 @@ let champ_waveclear_adjusted = champ_waveclear * final_waveclear_value
 let champ_sustain_adjusted = champ_sustain * final_sustain_value
 
 
-let blueCount = blue.length
-let redCount = red.length
+let blueCount = blue.length()
+let redCount = red.length()
 let totalCount = blueCount + redCount
 
 
