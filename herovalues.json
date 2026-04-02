@@ -449,11 +449,11 @@
   },
   {
     "Hero Name": "Nazeebo",
-    "Wave Clear": 5,
-    "Engage": 1,
+    "Wave Clear": 6,
+    "Engage": 2.5,
     "Peel": 2,
     "TeamSustain": 0,
-    "SelfSustain": 0
+    "SelfSustain": 4.5
   },
   {
     "Hero Name": "Nova",
