@@ -232,6 +232,12 @@ try {
   console.error("Blind load failed:", err)
 }
 
+blind.forEach(r => {
+  blindLookup[r["Hero Name"]] = {
+    Blindable: r.Blindable
+  }
+})
+
 
 console.log("Pairings loaded:",Object.keys(pairingLookup).length)
 console.log("Matchups loaded:",Object.keys(matchupLookup).length)
