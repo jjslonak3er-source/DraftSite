@@ -432,7 +432,7 @@ for(let thischamp of red){
   totalCount += 1
 }
 
-blindable = blindLookup[champ.name]?.Blindable ?? 0
+blindable = blindLookup[champ]?.Blindable ?? 0
 
 if(totalCount != 1){
   blindable = 1
