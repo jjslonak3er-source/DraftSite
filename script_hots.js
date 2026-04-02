@@ -406,7 +406,7 @@ let champ_sustain_adjusted = champ_sustain * final_sustain_value
 let role_score = champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted
 let stat_score = champ_engage_adjusted + champ_peel_adjusted + champ_waveclear_adjusted + champ_sustain_adjusted
 
-let score = (pairScore + matchScore) * role_score * stat_score
+let score = (((pairScore + matchScore)^2)/100) * role_score * stat_score
 
 results.push([champ,score])
 
