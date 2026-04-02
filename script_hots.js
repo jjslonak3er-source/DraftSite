@@ -192,7 +192,6 @@ roleScores = await fetch("hotsroles.json").then(r=>r.json())
 
 const roles = await fetch("hotsroles.json").then(r=>r.json())
 const stats = await fetch("herovalues.json").then(r=>r.json())
-const blind = await fetch("hotsblindable.json").then(r=>r.json())
 
 
 roles.forEach(r => {
@@ -219,17 +218,23 @@ stats.forEach(r => {
 
 })
 
-blind.forEach(r => {
-  blindLookup[r["Hero Name"]] = {
-    Blindable: r.Blindable
-  }
-})
 
+let blind = []
+
+try {
+  const res = await fetch("hotsblindable.json")
+  console.log("Blind fetch status:", res.status)
+
+  blind = await res.json()
+  console.log("Blind raw data:", blind)
+
+} catch (err) {
+  console.error("Blind load failed:", err)
+}
 
 
 console.log("Pairings loaded:",Object.keys(pairingLookup).length)
 console.log("Matchups loaded:",Object.keys(matchupLookup).length)
-
 console.log("Blinds loaded:",Object.keys(blindLookup).length)
 }
 
