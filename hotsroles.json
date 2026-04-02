@@ -546,7 +546,7 @@
   {
     "Hero Name": "Stitches",
     "Healer": 0,
-    "Tank": 7,
+    "Tank": 7.5,
     "RangedDPS": 0,
     "Flex": 0,
     "Offlane": 4
@@ -603,8 +603,8 @@
     "Hero Name": "Tracer",
     "Healer": 0,
     "Tank": 0,
-    "RangedDPS": 4,
-    "Flex": 7.75,
+    "RangedDPS": 3,
+    "Flex": 7,
     "Offlane": 0
   },
   {
