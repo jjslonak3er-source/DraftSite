@@ -297,9 +297,9 @@ let available = champions
 
 let results = []
 
-tank_role_target = 10
+tank_role_target = 9.75
 dps_role_target = 11
-support_role_target = 8.5
+support_role_target = 8.25
 flex_role_target = 12
 offlane_role_target = 10
 
@@ -335,9 +335,9 @@ final_offlane_value = ((offlane_role_target - min_weight + eps) / (max_weight - 
 Engage peel waveclear sustain  
 */
 engage_target = 20
-peel_target = 20
+peel_target = 18
 waveclear_target = 25
-sustain_target = 17.5
+sustain_target = 16
 
 
 for(let champ of blue){
