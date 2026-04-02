@@ -137,11 +137,11 @@
   },
   {
     "Hero Name": "Deathwing",
-    "Wave Clear": 6,
-    "Engage": 4,
-    "Peel": 4,
+    "Wave Clear": 5,
+    "Engage": 3,
+    "Peel": 3,
     "TeamSustain": 0,
-    "SelfSustain": 6
+    "SelfSustain": 5
   },
   {
     "Hero Name": "Deckard",

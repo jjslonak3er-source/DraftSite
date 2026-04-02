@@ -138,9 +138,9 @@
   {
     "Hero Name": "Deathwing",
     "Healer": 0,
-    "Tank": 5,
-    "RangedDPS": 3,
-    "Flex": 6,
+    "Tank": 4,
+    "RangedDPS": 1,
+    "Flex": 5,
     "Offlane": 4
   },
   {
