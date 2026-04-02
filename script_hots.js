@@ -654,11 +654,13 @@ if(results.length === 0) return
 
 /* take top 5 */
 
+
+top5 = results.slice(0,3)
 let totalCount = red.length + blue.length
 if(totalCount == 0){
-  let top5 = results.slice(0,10)
+  top5 = results.slice(0,10)
 }else{
-  let top5 = results.slice(0,3)
+  top5 = results.slice(0,3)
 }
 
 
