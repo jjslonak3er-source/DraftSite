@@ -75,7 +75,6 @@ fetch('hots_map_matrix.json')
   .then(r => r.json())
   .then(data => {
     mapData = data; // store globally
-    populateMapDropdown(data); // your current mapSelect code
   });
 
 /* -----------------------------
