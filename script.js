@@ -283,8 +283,6 @@ let available = champions
 .map(c=>c.name)
 .filter(c=>!taken.has(c))
 
-available = available.filter(c=>roleFilterByName(c.name))
-
 let results = []
 
 for(let champ of available){
