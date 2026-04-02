@@ -179,7 +179,7 @@
     "Hero Name": "Falstad",
     "Healer": 0,
     "Tank": 0,
-    "RangedDPS": 5,
+    "RangedDPS": 4,
     "Flex": 8,
     "Offlane": 4
   },
@@ -505,7 +505,7 @@
   },
   {
     "Hero Name": "Rehgar",
-    "Healer": 6,
+    "Healer": 7.5,
     "Tank": 0,
     "RangedDPS": 0,
     "Flex": 1.5,
