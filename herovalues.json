@@ -138,7 +138,7 @@
   {
     "Hero Name": "Deathwing",
     "Wave Clear": 6,
-    "Engage": 3,
+    "Engage": 4,
     "Peel": 4,
     "TeamSustain": 0,
     "SelfSustain": 6
@@ -177,7 +177,7 @@
   },
   {
     "Hero Name": "Falstad",
-    "Wave Clear": 6,
+    "Wave Clear": 6.5,
     "Engage": 3,
     "Peel": 5,
     "TeamSustain": 0,
@@ -185,7 +185,7 @@
   },
   {
     "Hero Name": "Fenix",
-    "Wave Clear": 6,
+    "Wave Clear": 6.5,
     "Engage": 1,
     "Peel": 1,
     "TeamSustain": 0,
@@ -349,7 +349,7 @@
     "Engage": 1,
     "Peel": 2,
     "TeamSustain": 0,
-    "SelfSustain": 0
+    "SelfSustain": 1.5
   },
   {
     "Hero Name": "Lt. Morales",
@@ -513,7 +513,7 @@
   },
   {
     "Hero Name": "Rexxar",
-    "Wave Clear": 6,
+    "Wave Clear": 5.75,
     "Engage": 6,
     "Peel": 6,
     "TeamSustain": 0,
@@ -556,7 +556,7 @@
     "Wave Clear": 3,
     "Engage": 4,
     "Peel": 4,
-    "TeamSustain": 7,
+    "TeamSustain": 6.75,
     "SelfSustain": 5
   },
   {
@@ -578,14 +578,14 @@
   {
     "Hero Name": "The Butcher",
     "Wave Clear": 5,
-    "Engage": 5,
+    "Engage": 7.75,
     "Peel": 2,
     "TeamSustain": 0,
     "SelfSustain": 3
   },
   {
     "Hero Name": "The Lost Vikings",
-    "Wave Clear": 5,
+    "Wave Clear": 6.5,
     "Engage": 0,
     "Peel": 0,
     "TeamSustain": 0,
@@ -605,7 +605,7 @@
     "Engage": 4,
     "Peel": 4,
     "TeamSustain": 0,
-    "SelfSustain": 3
+    "SelfSustain": 2
   },
   {
     "Hero Name": "Tychus",
@@ -633,8 +633,8 @@
   },
   {
     "Hero Name": "Uther",
-    "Wave Clear": 2,
-    "Engage": 5,
+    "Wave Clear": 1,
+    "Engage": 4,
     "Peel": 6,
     "TeamSustain": 5,
     "SelfSustain": 4
