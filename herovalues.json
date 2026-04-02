@@ -627,8 +627,8 @@
     "Hero Name": "Tyrande",
     "Wave Clear": 2,
     "Engage": 3,
-    "Peel": 3,
-    "TeamSustain": 6,
+    "Peel": 2,
+    "TeamSustain": 5.75,
     "SelfSustain": 3
   },
   {
