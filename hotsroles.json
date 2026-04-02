@@ -633,8 +633,8 @@
   },
   {
     "Hero Name": "Uther",
-    "Healer": 5.25,
-    "Tank": 6,
+    "Healer": 4.5,
+    "Tank": 5.5,
     "RangedDPS": 0,
     "Flex": 0,
     "Offlane": 0
