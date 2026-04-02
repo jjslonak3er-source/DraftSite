@@ -1,0 +1,1378 @@
+[
+  {
+    "champion": "Aatrox",
+    "top": 628.4816626,
+    "jungle": 114.3125787,
+    "mid": 8.230111353,
+    "bottom": 0.38380407,
+    "support": 1.592784215
+  },
+  {
+    "champion": "Ahri",
+    "top": 0,
+    "jungle": 0.2217704704,
+    "mid": 1000,
+    "bottom": 7.833472364,
+    "support": 6.196952102
+  },
+  {
+    "champion": "Akali",
+    "top": 272.273974,
+    "jungle": 0.3817392615,
+    "mid": 510.4745261,
+    "bottom": 0.4845704334,
+    "support": 0.9403409746
+  },
+  {
+    "champion": "Akshan",
+    "top": 38.30924237,
+    "jungle": 0.3116888018,
+    "mid": 296.4040686,
+    "bottom": 7.087427377,
+    "support": 0.8649878893
+  },
+  {
+    "champion": "Alistar",
+    "top": 6.586280097,
+    "jungle": 0.3659758105,
+    "mid": 2.662665367,
+    "bottom": 0.0310852078,
+    "support": 324.1465935
+  },
+  {
+    "champion": "Ambessa",
+    "top": 585.2353653,
+    "jungle": 332.8320932,
+    "mid": 31.71535548,
+    "bottom": 0.2486816624,
+    "support": 0.5683402582
+  },
+  {
+    "champion": "Amumu",
+    "top": 2.062033966,
+    "jungle": 410.3006696,
+    "mid": 0.2739835971,
+    "bottom": 0.4396112245,
+    "support": 32.10257989
+  },
+  {
+    "champion": "Anivia",
+    "top": 93.58527393,
+    "jungle": 0.325548336,
+    "mid": 272.5594968,
+    "bottom": 4.645326153,
+    "support": 44.79434403
+  },
+  {
+    "champion": "Annie",
+    "top": 8.33767945,
+    "jungle": 0.2337666014,
+    "mid": 105.6502907,
+    "bottom": 1.85146037,
+    "support": 14.29677108
+  },
+  {
+    "champion": "Aphelios",
+    "top": 1.642144465,
+    "jungle": 0.06748260511,
+    "mid": 2.953256101,
+    "bottom": 458.2980568,
+    "support": 0.2396332936
+  },
+  {
+    "champion": "Ashe",
+    "top": 8.732329473,
+    "jungle": 0.04771740769,
+    "mid": 12.67072807,
+    "bottom": 423.7251644,
+    "support": 49.1692474
+  },
+  {
+    "champion": "AurelionSol",
+    "top": 24.85018969,
+    "jungle": 9.759435462,
+    "mid": 275.4309334,
+    "bottom": 59.0942752,
+    "support": 5.079718209
+  },
+  {
+    "champion": "Aurora",
+    "top": 176.127845,
+    "jungle": 0.3817392615,
+    "mid": 224.4208766,
+    "bottom": 3.295032026,
+    "support": 2.097618813
+  },
+  {
+    "champion": "Azir",
+    "top": 31.67480565,
+    "jungle": 0.350649902,
+    "mid": 168.8163306,
+    "bottom": 1.231670891,
+    "support": 0.6275789885
+  },
+  {
+    "champion": "Bard",
+    "top": 2.477622274,
+    "jungle": 0.6932617185,
+    "mid": 0.4654349375,
+    "bottom": 0,
+    "support": 433.4740832
+  },
+  {
+    "champion": "Belveth",
+    "top": 2.858316257,
+    "jungle": 192.0437811,
+    "mid": 0.1369917986,
+    "bottom": 1.352166496,
+    "support": 0.2882340553
+  },
+  {
+    "champion": "Blitzcrank",
+    "top": 0.3586499813,
+    "jungle": 0.3896110023,
+    "mid": 1.103544335,
+    "bottom": 0.06646296992,
+    "support": 311.6917805
+  },
+  {
+    "champion": "Brand",
+    "top": 32.24702458,
+    "jungle": 54.5889635,
+    "mid": 155.6049372,
+    "bottom": 97.32930525,
+    "support": 246.3859605
+  },
+  {
+    "champion": "Braum",
+    "top": 0.928704943,
+    "jungle": 0.05509931635,
+    "mid": 0.1369917986,
+    "bottom": 0,
+    "support": 509.8319595
+  },
+  {
+    "champion": "Briar",
+    "top": 58.75670662,
+    "jungle": 532.9391692,
+    "mid": 18.61761232,
+    "bottom": 1.412416931,
+    "support": 3.522103067
+  },
+  {
+    "champion": "Caitlyn",
+    "top": 10.38040407,
+    "jungle": 0.05509931635,
+    "mid": 11.28936763,
+    "bottom": 1000,
+    "support": 1.692568652
+  },
+  {
+    "champion": "Camille",
+    "top": 267.9013333,
+    "jungle": 5.610398433,
+    "mid": 3.837212108,
+    "bottom": 0.2224276407,
+    "support": 8.737742626
+  },
+  {
+    "champion": "Cassiopeia",
+    "top": 115.8752163,
+    "jungle": 0.2203972654,
+    "mid": 109.096765,
+    "bottom": 20.02075054,
+    "support": 1.613993059
+  },
+  {
+    "champion": "Chogath",
+    "top": 474.5027556,
+    "jungle": 78.33752357,
+    "mid": 69.35007231,
+    "bottom": 2.324447659,
+    "support": 12.7143255
+  },
+  {
+    "champion": "Corki",
+    "top": 14.95410073,
+    "jungle": 0.8535949384,
+    "mid": 43.14856873,
+    "bottom": 270.1395475,
+    "support": 0.05156087529
+  },
+  {
+    "champion": "Darius",
+    "top": 782.0298923,
+    "jungle": 55.74557143,
+    "mid": 6.229666964,
+    "bottom": 1.509631143,
+    "support": 1.750432553
+  },
+  {
+    "champion": "Diana",
+    "top": 12.51562247,
+    "jungle": 534.8291998,
+    "mid": 255.3660978,
+    "bottom": 0.4351929091,
+    "support": 0.7909077229
+  },
+  {
+    "champion": "DrMundo",
+    "top": 778.2885053,
+    "jungle": 476.8538087,
+    "mid": 17.71257781,
+    "bottom": 1.772715065,
+    "support": 2.087037492
+  },
+  {
+    "champion": "Draven",
+    "top": 13.76630917,
+    "jungle": 2.412684381,
+    "mid": 3.775050061,
+    "bottom": 223.7205588,
+    "support": 0.2062435012
+  },
+  {
+    "champion": "Ekko",
+    "top": 19.33837534,
+    "jungle": 359.054844,
+    "mid": 283.2544931,
+    "bottom": 2.940870423,
+    "support": 3.515301725
+  },
+  {
+    "champion": "Elise",
+    "top": 13.64263809,
+    "jungle": 181.4055258,
+    "mid": 3.332174986,
+    "bottom": 0.3276668606,
+    "support": 75.39772948
+  },
+  {
+    "champion": "Evelynn",
+    "top": 0.7393381165,
+    "jungle": 208.4933874,
+    "mid": 1.226049492,
+    "bottom": 0.1865112468,
+    "support": 1.148709217
+  },
+  {
+    "champion": "Ezreal",
+    "top": 8.355502694,
+    "jungle": 2.655513769,
+    "mid": 27.13613778,
+    "bottom": 574.4477013,
+    "support": 3.200212848
+  },
+  {
+    "champion": "FiddleSticks",
+    "top": 52.92491798,
+    "jungle": 264.2052396,
+    "mid": 8.134668871,
+    "bottom": 0.4700620663,
+    "support": 38.40961641
+  },
+  {
+    "champion": "Fiora",
+    "top": 567.8822025,
+    "jungle": 0.4828662155,
+    "mid": 3.015003324,
+    "bottom": 4.353208882,
+    "support": 1.738116752
+  },
+  {
+    "champion": "Fizz",
+    "top": 21.89119074,
+    "jungle": 27.87421365,
+    "mid": 379.8333183,
+    "bottom": 1.027349266,
+    "support": 1.780836119
+  },
+  {
+    "champion": "Galio",
+    "top": 41.00979655,
+    "jungle": 0.74295903,
+    "mid": 335.8307516,
+    "bottom": 0.7173924915,
+    "support": 43.02242089
+  },
+  {
+    "champion": "Gangplank",
+    "top": 592.9811701,
+    "jungle": 0.3414379754,
+    "mid": 31.13196409,
+    "bottom": 0.38380407,
+    "support": 0.5358363342
+  },
+  {
+    "champion": "Garen",
+    "top": 1000,
+    "jungle": 4.809518866,
+    "mid": 34.3473613,
+    "bottom": 1.027119324,
+    "support": 0.757787011
+  },
+  {
+    "champion": "Gnar",
+    "top": 449.0896294,
+    "jungle": 0.6233776036,
+    "mid": 3.16564444,
+    "bottom": 0.1879856669,
+    "support": 2.189162476
+  },
+  {
+    "champion": "Gragas",
+    "top": 231.4705031,
+    "jungle": 29.274084,
+    "mid": 25.62994779,
+    "bottom": 0.2837678252,
+    "support": 11.13105724
+  },
+  {
+    "champion": "Graves",
+    "top": 25.71682412,
+    "jungle": 250.2152201,
+    "mid": 5.008686265,
+    "bottom": 2.07470079,
+    "support": 0.1615607336
+  },
+  {
+    "champion": "Gwen",
+    "top": 594.4907982,
+    "jungle": 284.7061564,
+    "mid": 16.58191505,
+    "bottom": 1.416905419,
+    "support": 0.2608796865
+  },
+  {
+    "champion": "Hecarim",
+    "top": 1.373062795,
+    "jungle": 325.5075321,
+    "mid": 0.06407204688,
+    "bottom": 0,
+    "support": 0.05156087529
+  },
+  {
+    "champion": "Heimerdinger",
+    "top": 193.2970624,
+    "jungle": 1.2406526,
+    "mid": 39.48554388,
+    "bottom": 12.12962759,
+    "support": 11.41185717
+  },
+  {
+    "champion": "Hwei",
+    "top": 5.775820427,
+    "jungle": 0.1349652102,
+    "mid": 213.7554217,
+    "bottom": 32.0865186,
+    "support": 18.02645968
+  },
+  {
+    "champion": "Illaoi",
+    "top": 383.0953357,
+    "jungle": 0.5301328217,
+    "mid": 4.57653922,
+    "bottom": 0.2344593198,
+    "support": 0.773985816
+  },
+  {
+    "champion": "Irelia",
+    "top": 563.947549,
+    "jungle": 0.07792220045,
+    "mid": 171.9621838,
+    "bottom": 4.121106109,
+    "support": 0.4381477002
+  },
+  {
+    "champion": "Ivern",
+    "top": 6.780267878,
+    "jungle": 147.0665472,
+    "mid": 9.085999979,
+    "bottom": 0,
+    "support": 12.19591392
+  },
+  {
+    "champion": "Janna",
+    "top": 2.865360866,
+    "jungle": 0.06035827693,
+    "mid": 0.3054514986,
+    "bottom": 0.05076193176,
+    "support": 295.3399338
+  },
+  {
+    "champion": "JarvanIV",
+    "top": 10.3764917,
+    "jungle": 505.9310044,
+    "mid": 3.398297072,
+    "bottom": 0.1615234778,
+    "support": 10.5529619
+  },
+  {
+    "champion": "Jax",
+    "top": 850.7882674,
+    "jungle": 300.5330393,
+    "mid": 8.983988577,
+    "bottom": 0.7652701927,
+    "support": 5.816090052
+  },
+  {
+    "champion": "Jayce",
+    "top": 354.3183627,
+    "jungle": 216.4218649,
+    "mid": 71.12444912,
+    "bottom": 0.8207857604,
+    "support": 1.440467095
+  },
+  {
+    "champion": "Jhin",
+    "top": 13.19454057,
+    "jungle": 0.7951992326,
+    "mid": 14.45275472,
+    "bottom": 714.2176433,
+    "support": 1.965558126
+  },
+  {
+    "champion": "Jinx",
+    "top": 2.852450896,
+    "jungle": 0.1558444009,
+    "mid": 2.28060582,
+    "bottom": 869.7302003,
+    "support": 0.1339590835
+  },
+  {
+    "champion": "KSante",
+    "top": 394.5107964,
+    "jungle": 0.1349652102,
+    "mid": 9.469228841,
+    "bottom": 0.2030477271,
+    "support": 4.102698755
+  },
+  {
+    "champion": "Kaisa",
+    "top": 12.09325486,
+    "jungle": 6.210282957,
+    "mid": 14.13367178,
+    "bottom": 645.3326062,
+    "support": 0.4846822008
+  },
+  {
+    "champion": "Kalista",
+    "top": 4.353204792,
+    "jungle": 0,
+    "mid": 6.818404497,
+    "bottom": 50.32603546,
+    "support": 0.06874783373
+  },
+  {
+    "champion": "Karma",
+    "top": 40.65315737,
+    "jungle": 0.1707189877,
+    "mid": 25.96954244,
+    "bottom": 2.26929595,
+    "support": 498.3845449
+  },
+  {
+    "champion": "Karthus",
+    "top": 7.867813786,
+    "jungle": 127.8593324,
+    "mid": 13.46180588,
+    "bottom": 39.83549267,
+    "support": 2.172094307
+  },
+  {
+    "champion": "Kassadin",
+    "top": 21.96996792,
+    "jungle": 1.536470889,
+    "mid": 349.1070552,
+    "bottom": 0.07864004654,
+    "support": 0
+  },
+  {
+    "champion": "Katarina",
+    "top": 9.634944041,
+    "jungle": 0.2203972654,
+    "mid": 442.6157163,
+    "bottom": 18.49577665,
+    "support": 2.895078111
+  },
+  {
+    "champion": "Kayle",
+    "top": 650,
+    "jungle": 2.55320765,
+    "mid": 97.2887442,
+    "bottom": 1.261308881,
+    "support": 3.245488436
+  },
+  {
+    "champion": "Kayn",
+    "top": 48.40129248,
+    "jungle": 500.4218869,
+    "mid": 1.914518587,
+    "bottom": 0.5517750676,
+    "support": 0.6562628022
+  },
+  {
+    "champion": "Kennen",
+    "top": 420.6926026,
+    "jungle": 0.07792220045,
+    "mid": 61.88849615,
+    "bottom": 1.273434248,
+    "support": 5.079718209
+  },
+  {
+    "champion": "Khazix",
+    "top": 0.818967248,
+    "jungle": 735.8745134,
+    "mid": 1.359173365,
+    "bottom": 0.05076193176,
+    "support": 0.3913195298
+  },
+  {
+    "champion": "Kindred",
+    "top": 3.363874225,
+    "jungle": 223.9616568,
+    "mid": 2.426948586,
+    "bottom": 1.566565543,
+    "support": 0.3675806927
+  },
+  {
+    "champion": "Kled",
+    "top": 278.615967,
+    "jungle": 0.9313484328,
+    "mid": 12.18342954,
+    "bottom": 0.8593100257,
+    "support": 1.390493401
+  },
+  {
+    "champion": "KogMaw",
+    "top": 9.45178667,
+    "jungle": 0.1207165539,
+    "mid": 37.48329683,
+    "bottom": 133.1637376,
+    "support": 3.71494228
+  },
+  {
+    "champion": "Leblanc",
+    "top": 13.54531665,
+    "jungle": 0.4048956307,
+    "mid": 251.2249281,
+    "bottom": 0.7784967425,
+    "support": 24.01877591
+  },
+  {
+    "champion": "LeeSin",
+    "top": 42.1246359,
+    "jungle": 408.94368,
+    "mid": 9.065023065,
+    "bottom": 0.728515519,
+    "support": 10.3910214
+  },
+  {
+    "champion": "Leona",
+    "top": 0.427969961,
+    "jungle": 0.8360048543,
+    "mid": 0.5678441122,
+    "bottom": 0.03589410618,
+    "support": 529.0259679
+  },
+  {
+    "champion": "Lillia",
+    "top": 9.578450571,
+    "jungle": 225.2350191,
+    "mid": 1.118766355,
+    "bottom": 0.2871528494,
+    "support": 0.9984720566
+  },
+  {
+    "champion": "Lissandra",
+    "top": 19.91663112,
+    "jungle": 0.2650664109,
+    "mid": 177.8707654,
+    "bottom": 0.9398053708,
+    "support": 6.104953686
+  },
+  {
+    "champion": "Lucian",
+    "top": 7.315022646,
+    "jungle": 0.07792220045,
+    "mid": 14.73608842,
+    "bottom": 320.5776565,
+    "support": 0.04209927839
+  },
+  {
+    "champion": "Lulu",
+    "top": 7.672201511,
+    "jungle": 0.07792220045,
+    "mid": 3.291122005,
+    "bottom": 0.03589410618,
+    "support": 458.7463197
+  },
+  {
+    "champion": "Lux",
+    "top": 5.059072914,
+    "jungle": 0.1058754216,
+    "mid": 333.1341428,
+    "bottom": 62.70102216,
+    "support": 435.1161243
+  },
+  {
+    "champion": "Malphite",
+    "top": 800.9062418,
+    "jungle": 163.1274532,
+    "mid": 77.06612083,
+    "bottom": 0.5350777427,
+    "support": 31.0282901
+  },
+  {
+    "champion": "Malzahar",
+    "top": 44.83635649,
+    "jungle": 0.9313484328,
+    "mid": 568.0461933,
+    "bottom": 8.580206438,
+    "support": 2.818881803
+  },
+  {
+    "champion": "Maokai",
+    "top": 58.78385959,
+    "jungle": 32.27152604,
+    "mid": 0.8681377128,
+    "bottom": 0.1615234778,
+    "support": 154.9958631
+  },
+  {
+    "champion": "MasterYi",
+    "top": 126.5818335,
+    "jungle": 501.1437293,
+    "mid": 10.96514709,
+    "bottom": 2.398498934,
+    "support": 2.902461286
+  },
+  {
+    "champion": "Mel",
+    "top": 7.636823091,
+    "jungle": 0,
+    "mid": 280.2056081,
+    "bottom": 96.14306442,
+    "support": 99.13151614
+  },
+  {
+    "champion": "Milio",
+    "top": 0.7116481605,
+    "jungle": 0.1349652102,
+    "mid": 0.3699201351,
+    "bottom": 0.1243408312,
+    "support": 383.0390367
+  },
+  {
+    "champion": "MissFortune",
+    "top": 2.324450186,
+    "jungle": 0.05509931635,
+    "mid": 10.17642372,
+    "bottom": 695.0423423,
+    "support": 10.09876982
+  },
+  {
+    "champion": "MonkeyKing",
+    "top": 87.0916084,
+    "jungle": 193.2156889,
+    "mid": 6.016987316,
+    "bottom": 0.3471638436,
+    "support": 3.177118629
+  },
+  {
+    "champion": "Mordekaiser",
+    "top": 856.8183763,
+    "jungle": 64.90928953,
+    "mid": 17.55638801,
+    "bottom": 0.9029436908,
+    "support": 2.372723169
+  },
+  {
+    "champion": "Morgana",
+    "top": 17.42569229,
+    "jungle": 36.52953979,
+    "mid": 76.48958087,
+    "bottom": 3.545276694,
+    "support": 382.4373445
+  },
+  {
+    "champion": "Naafiri",
+    "top": 110.6197065,
+    "jungle": 230.869672,
+    "mid": 325.5682815,
+    "bottom": 5.6212603,
+    "support": 0.6694686085
+  },
+  {
+    "champion": "Nami",
+    "top": 0.02981738185,
+    "jungle": 0,
+    "mid": 0.6851016777,
+    "bottom": 0.2871528494,
+    "support": 1000
+  },
+  {
+    "champion": "Nasus",
+    "top": 530,
+    "jungle": 111.670518,
+    "mid": 53.87007023,
+    "bottom": 1.04168912,
+    "support": 2.604812374
+  },
+  {
+    "champion": "Nautilus",
+    "top": 10.34886634,
+    "jungle": 11.78648639,
+    "mid": 6.614864607,
+    "bottom": 0.3949311298,
+    "support": 702.4506278
+  },
+  {
+    "champion": "Neeko",
+    "top": 18.96467792,
+    "jungle": 10.54587493,
+    "mid": 61.82228147,
+    "bottom": 1.616430805,
+    "support": 229.3101152
+  },
+  {
+    "champion": "Nidalee",
+    "top": 19.01658044,
+    "jungle": 129.6153096,
+    "mid": 9.042880786,
+    "bottom": 0.2538096588,
+    "support": 24.59605505
+  },
+  {
+    "champion": "Nilah",
+    "top": 0.4904467166,
+    "jungle": 0.8589133384,
+    "mid": 0.6851016777,
+    "bottom": 117.4071945,
+    "support": 0.1683971135
+  },
+  {
+    "champion": "Nocturne",
+    "top": 17.79363384,
+    "jungle": 349.2702119,
+    "mid": 5.935586579,
+    "bottom": 0,
+    "support": 0.2796281071
+  },
+  {
+    "champion": "Nunu",
+    "top": 0.1658401684,
+    "jungle": 305.220125,
+    "mid": 18.28159338,
+    "bottom": 0.08792224491,
+    "support": 3.44296066
+  },
+  {
+    "champion": "Olaf",
+    "top": 326.8394466,
+    "jungle": 31.42215605,
+    "mid": 2.993992592,
+    "bottom": 1.209913161,
+    "support": 0.3843120738
+  },
+  {
+    "champion": "Orianna",
+    "top": 8.33767945,
+    "jungle": 0.6160290843,
+    "mid": 390.0378314,
+    "bottom": 1.319755992,
+    "support": 6.678969531
+  },
+  {
+    "champion": "Ornn",
+    "top": 740.1621972,
+    "jungle": 7.003506826,
+    "mid": 10.94406569,
+    "bottom": 1.32943939,
+    "support": 4.977535393
+  },
+  {
+    "champion": "Pantheon",
+    "top": 243.9669768,
+    "jungle": 89.52802551,
+    "mid": 80.46232205,
+    "bottom": 1.529986984,
+    "support": 167.7819609
+  },
+  {
+    "champion": "Poppy",
+    "top": 153.0543358,
+    "jungle": 40.41423666,
+    "mid": 4.311080337,
+    "bottom": 0.9401241326,
+    "support": 129.0855977
+  },
+  {
+    "champion": "Pyke",
+    "top": 2.265036383,
+    "jungle": 1.196140965,
+    "mid": 4.289414984,
+    "bottom": 2.841205101,
+    "support": 362.3310675
+  },
+  {
+    "champion": "Qiyana",
+    "top": 22.16912555,
+    "jungle": 174.5083884,
+    "mid": 189.7270475,
+    "bottom": 2.435731354,
+    "support": 4.505318031
+  },
+  {
+    "champion": "Quinn",
+    "top": 184.4853523,
+    "jungle": 3.700290327,
+    "mid": 46.23634803,
+    "bottom": 4.367555458,
+    "support": 3.318392182
+  },
+  {
+    "champion": "Rakan",
+    "top": 0.08398055404,
+    "jungle": 0.1349652102,
+    "mid": 5.197013002,
+    "bottom": 0.2043128342,
+    "support": 270.8707076
+  },
+  {
+    "champion": "Rammus",
+    "top": 9.815925343,
+    "jungle": 216.3720682,
+    "mid": 0.5933154571,
+    "bottom": 0.7157579656,
+    "support": 5.815302616
+  },
+  {
+    "champion": "RekSai",
+    "top": 56.88455201,
+    "jungle": 242.3227911,
+    "mid": 2.830157394,
+    "bottom": 0.2871528494,
+    "support": 2.843805476
+  },
+  {
+    "champion": "Rell",
+    "top": 0.4728905397,
+    "jungle": 0.5726088922,
+    "mid": 0.1812231153,
+    "bottom": 0,
+    "support": 214.9441372
+  },
+  {
+    "champion": "Renata",
+    "top": 0,
+    "jungle": 0,
+    "mid": 0.162090882,
+    "bottom": 0.9947266494,
+    "support": 73.97607972
+  },
+  {
+    "champion": "Renekton",
+    "top": 692.0871702,
+    "jungle": 0.1874302566,
+    "mid": 23.19872767,
+    "bottom": 0.2627179563,
+    "support": 0.1102417885
+  },
+  {
+    "champion": "Rengar",
+    "top": 36.83835625,
+    "jungle": 355.0352112,
+    "mid": 0.4775648409,
+    "bottom": 3.124180933,
+    "support": 6.162701575
+  },
+  {
+    "champion": "Riven",
+    "top": 582.7525649,
+    "jungle": 18.95011756,
+    "mid": 32.84192081,
+    "bottom": 1.633830453,
+    "support": 0.6452081524
+  },
+  {
+    "champion": "Rumble",
+    "top": 410.4784326,
+    "jungle": 37.73562085,
+    "mid": 20.50090258,
+    "bottom": 0.02650955428,
+    "support": 4.705710142
+  },
+  {
+    "champion": "Ryze",
+    "top": 156.4315384,
+    "jungle": 0.3896110023,
+    "mid": 375.5822913,
+    "bottom": 2.829281781,
+    "support": 0.6225855595
+  },
+  {
+    "champion": "Samira",
+    "top": 2.481491753,
+    "jungle": 0.4080964365,
+    "mid": 2.805498517,
+    "bottom": 261.4668821,
+    "support": 0.2062435012
+  },
+  {
+    "champion": "Sejuani",
+    "top": 63.19053623,
+    "jungle": 155.9652772,
+    "mid": 4.263848341,
+    "bottom": 0.06217041559,
+    "support": 7.885917363
+  },
+  {
+    "champion": "Senna",
+    "top": 15.10088139,
+    "jungle": 0.09543481537,
+    "mid": 2.862880732,
+    "bottom": 95.8474486,
+    "support": 369.1846302
+  },
+  {
+    "champion": "Seraphine",
+    "top": 2.065945728,
+    "jungle": 0.2337666014,
+    "mid": 29.75632343,
+    "bottom": 54.94345554,
+    "support": 347.9797263
+  },
+  {
+    "champion": "Sett",
+    "top": 785.9749266,
+    "jungle": 8.999163594,
+    "mid": 11.11910086,
+    "bottom": 0.8271989509,
+    "support": 9.692497229
+  },
+  {
+    "champion": "Shaco",
+    "top": 24.14041274,
+    "jungle": 439.259266,
+    "mid": 4.026720065,
+    "bottom": 0.4973633247,
+    "support": 71.35104411
+  },
+  {
+    "champion": "Shen",
+    "top": 571.7834388,
+    "jungle": 44.96112464,
+    "mid": 15.1099413,
+    "bottom": 0.07864004654,
+    "support": 50.40471786
+  },
+  {
+    "champion": "Shyvana",
+    "top": 16.89162832,
+    "jungle": 115.6835671,
+    "mid": 1.708587917,
+    "bottom": 0.1865112468,
+    "support": 0.2679181671
+  },
+  {
+    "champion": "Singed",
+    "top": 534.5155322,
+    "jungle": 7.492096786,
+    "mid": 33.42593579,
+    "bottom": 3.816484798,
+    "support": 5.167583837
+  },
+  {
+    "champion": "Sion",
+    "top": 727.6669984,
+    "jungle": 30.60680961,
+    "mid": 83.90901076,
+    "bottom": 5.605574644,
+    "support": 13.02304725
+  },
+  {
+    "champion": "Sivir",
+    "top": 1.588135929,
+    "jungle": 0,
+    "mid": 2.086419712,
+    "bottom": 299.3300254,
+    "support": 0.1458361783
+  },
+  {
+    "champion": "Skarner",
+    "top": 25.99627608,
+    "jungle": 56.4024513,
+    "mid": 0.9987843648,
+    "bottom": 0.04396112245,
+    "support": 4.674216419
+  },
+  {
+    "champion": "Smolder",
+    "top": 47.60937716,
+    "jungle": 0.06035827693,
+    "mid": 69.281752,
+    "bottom": 449.7783437,
+    "support": 0.6275789885
+  },
+  {
+    "champion": "Sona",
+    "top": 1.240614928,
+    "jungle": 0,
+    "mid": 1.949636736,
+    "bottom": 1.01314426,
+    "support": 482.6624722
+  },
+  {
+    "champion": "Soraka",
+    "top": 5.02568514,
+    "jungle": 0.1349652102,
+    "mid": 5.76594274,
+    "bottom": 1.213606571,
+    "support": 295.2193653
+  },
+  {
+    "champion": "Swain",
+    "top": 137.4062753,
+    "jungle": 0.2863044461,
+    "mid": 154.6043929,
+    "bottom": 133.567507,
+    "support": 213.6913451
+  },
+  {
+    "champion": "Sylas",
+    "top": 87.20645577,
+    "jungle": 239.6316591,
+    "mid": 353.8816383,
+    "bottom": 1.243408312,
+    "support": 28.77006224
+  },
+  {
+    "champion": "Syndra",
+    "top": 8.658195926,
+    "jungle": 0,
+    "mid": 594.2789412,
+    "bottom": 27.61429314,
+    "support": 5.892538656
+  },
+  {
+    "champion": "TahmKench",
+    "top": 361.5777662,
+    "jungle": 1.575057167,
+    "mid": 10.09453245,
+    "bottom": 8.828857513,
+    "support": 167.7514728
+  },
+  {
+    "champion": "Taliyah",
+    "top": 7.186954883,
+    "jungle": 102.3579331,
+    "mid": 215.17715,
+    "bottom": 4.128376243,
+    "support": 9.114761141
+  },
+  {
+    "champion": "Talon",
+    "top": 4.939582818,
+    "jungle": 320.5235164,
+    "mid": 119.3860747,
+    "bottom": 0.8593100257,
+    "support": 0.3081351664
+  },
+  {
+    "champion": "Taric",
+    "top": 4.156646618,
+    "jungle": 5.623456277,
+    "mid": 1.343069927,
+    "bottom": 0.476825321,
+    "support": 131.7208272
+  },
+  {
+    "champion": "Teemo",
+    "top": 579.1916201,
+    "jungle": 86.70737449,
+    "mid": 17.96054121,
+    "bottom": 4.252463318,
+    "support": 63.00800289
+  },
+  {
+    "champion": "Thresh",
+    "top": 1.926701889,
+    "jungle": 0.2024478153,
+    "mid": 1.04557852,
+    "bottom": 0.5501084773,
+    "support": 680.0168706
+  },
+  {
+    "champion": "Tristana",
+    "top": 7.862017217,
+    "jungle": 0.9543481537,
+    "mid": 47.33283674,
+    "bottom": 278.1715396,
+    "support": 0.1383523466
+  },
+  {
+    "champion": "Trundle",
+    "top": 199.890382,
+    "jungle": 136.8027836,
+    "mid": 1.442874094,
+    "bottom": 0.08792224491,
+    "support": 13.61038255
+  },
+  {
+    "champion": "Tryndamere",
+    "top": 424.0062927,
+    "jungle": 23.61519327,
+    "mid": 34.22180776,
+    "bottom": 0.6436086443,
+    "support": 0.4931189672
+  },
+  {
+    "champion": "TwistedFate",
+    "top": 25.60688634,
+    "jungle": 0.8370187014,
+    "mid": 270.9046789,
+    "bottom": 8.507254089,
+    "support": 5.764237556
+  },
+  {
+    "champion": "Twitch",
+    "top": 2.382813249,
+    "jungle": 12.58243792,
+    "mid": 13.39385912,
+    "bottom": 396.7539732,
+    "support": 10.53140908
+  },
+  {
+    "champion": "Udyr",
+    "top": 94.90902571,
+    "jungle": 178.4991842,
+    "mid": 1.263373394,
+    "bottom": 1.772638347,
+    "support": 0.7351613854
+  },
+  {
+    "champion": "Urgot",
+    "top": 589.190182,
+    "jungle": 4.635827702,
+    "mid": 4.236269474,
+    "bottom": 1.329259398,
+    "support": 1.012635488
+  },
+  {
+    "champion": "Varus",
+    "top": 329.2346559,
+    "jungle": 0.763478523,
+    "mid": 40.54346639,
+    "bottom": 288.3902749,
+    "support": 2.535782347
+  },
+  {
+    "champion": "Vayne",
+    "top": 400.7748212,
+    "jungle": 7.641496009,
+    "mid": 13.75239805,
+    "bottom": 346.5849026,
+    "support": 0.7240314357
+  },
+  {
+    "champion": "Veigar",
+    "top": 21.01869151,
+    "jungle": 0.06035827693,
+    "mid": 508.2608982,
+    "bottom": 139.2482386,
+    "support": 28.79386271
+  },
+  {
+    "champion": "Velkoz",
+    "top": 9.861215306,
+    "jungle": 0.09543481537,
+    "mid": 123.2366836,
+    "bottom": 43.24893406,
+    "support": 194.4147233
+  },
+  {
+    "champion": "Vex",
+    "top": 10.38707556,
+    "jungle": 0.06748260511,
+    "mid": 244.2591681,
+    "bottom": 1.354863075,
+    "support": 2.452673873
+  },
+  {
+    "champion": "Vi",
+    "top": 19.23365956,
+    "jungle": 344.1755676,
+    "mid": 4.442597122,
+    "bottom": 0.1879856669,
+    "support": 2.779227681
+  },
+  {
+    "champion": "Viego",
+    "top": 23.43465558,
+    "jungle": 1000,
+    "mid": 22.19999352,
+    "bottom": 2.82449274,
+    "support": 1.924939344
+  },
+  {
+    "champion": "Viktor",
+    "top": 20.91409008,
+    "jungle": 0.1349652102,
+    "mid": 391.1251752,
+    "bottom": 18.19157916,
+    "support": 0.8573381346
+  },
+  {
+    "champion": "Vladimir",
+    "top": 212.0311617,
+    "jungle": 0,
+    "mid": 191.3942667,
+    "bottom": 23.14369492,
+    "support": 0.1615607336
+  },
+  {
+    "champion": "Volibear",
+    "top": 410.3982776,
+    "jungle": 453.8978171,
+    "mid": 3.76122562,
+    "bottom": 0.06646296992,
+    "support": 1.032584541
+  },
+  {
+    "champion": "Warwick",
+    "top": 185.889662,
+    "jungle": 286.2158123,
+    "mid": 2.180167112,
+    "bottom": 0.4448552814,
+    "support": 0.2000855859
+  },
+  {
+    "champion": "Xayah",
+    "top": 1.951831065,
+    "jungle": 0.06748260511,
+    "mid": 0.9168556124,
+    "bottom": 162.5261004,
+    "support": 0.07291808913
+  },
+  {
+    "champion": "Xerath",
+    "top": 1.511482641,
+    "jungle": 0.5703321083,
+    "mid": 315.0396696,
+    "bottom": 19.19775732,
+    "support": 124.0244858
+  },
+  {
+    "champion": "XinZhao",
+    "top": 51.32683683,
+    "jungle": 428.8473672,
+    "mid": 9.693578057,
+    "bottom": 0.4915002909,
+    "support": 2.662233027
+  },
+  {
+    "champion": "Yasuo",
+    "top": 345.5320554,
+    "jungle": 1.535374425,
+    "mid": 764.6809989,
+    "bottom": 101.4834078,
+    "support": 0.8520294883
+  },
+  {
+    "champion": "Yone",
+    "top": 588.366816,
+    "jungle": 2.915248541,
+    "mid": 489.5980567,
+    "bottom": 4.915886373,
+    "support": 0.6462429343
+  },
+  {
+    "champion": "Yorick",
+    "top": 609.4062285,
+    "jungle": 13.26543934,
+    "mid": 14.27321394,
+    "bottom": 0.4845704334,
+    "support": 1.043285185
+  },
+  {
+    "champion": "Yunara",
+    "top": 3.646038954,
+    "jungle": 0,
+    "mid": 2.399007866,
+    "bottom": 491.3410903,
+    "support": 0.1894467527
+  },
+  {
+    "champion": "Yuumi",
+    "top": 0.00916,
+    "jungle": 0.06035827693,
+    "mid": 0,
+    "bottom": 0,
+    "support": 222.4459029
+  },
+  {
+    "champion": "Zaahen",
+    "top": 902.0903796,
+    "jungle": 354.557729,
+    "mid": 11.14088086,
+    "bottom": 0.4689186395,
+    "support": 1.552394953
+  },
+  {
+    "champion": "Zac",
+    "top": 62.7743821,
+    "jungle": 287.5980052,
+    "mid": 24.30658209,
+    "bottom": 0.1318833674,
+    "support": 16.04197961
+  },
+  {
+    "champion": "Zed",
+    "top": 60.6349484,
+    "jungle": 119.6256985,
+    "mid": 455.0954857,
+    "bottom": 1.762164203,
+    "support": 2.517348831
+  },
+  {
+    "champion": "Zeri",
+    "top": 2.792139164,
+    "jungle": 4.466044074,
+    "mid": 3.023294709,
+    "bottom": 117.9738632,
+    "support": 0.2187542674
+  },
+  {
+    "champion": "Ziggs",
+    "top": 2.803539112,
+    "jungle": 0.09543481537,
+    "mid": 81.86848955,
+    "bottom": 119.0159819,
+    "support": 8.44955541
+  },
+  {
+    "champion": "Zilean",
+    "top": 38.60866334,
+    "jungle": 0,
+    "mid": 36.70914497,
+    "bottom": 11.10444333,
+    "support": 194.8633732
+  },
+  {
+    "champion": "Zoe",
+    "top": 19.96093903,
+    "jungle": 0.3414379754,
+    "mid": 274.9975211,
+    "bottom": 2.97149002,
+    "support": 50.57505159
+  },
+  {
+    "champion": "Zyra",
+    "top": 4.299854823,
+    "jungle": 102.2345543,
+    "mid": 19.09737778,
+    "bottom": 17.03784919,
+    "support": 222.1703881
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "Hero Name": "Abathur",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/d8/AbathurArt.jpg/revision/latest/scale-to-width-down/240?cb=20150907202758"
+  },
+  {
+    "Hero Name": "Alarak",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/4/40/AlarakArt.jpg/revision/latest/scale-to-width-down/240?cb=20160816205645"
+  },
+  {
+    "Hero Name": "Alexstrasza",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/2/21/Alexstrasza_square_tile.png/revision/latest?cb=20190326222744"
+  },
+  {
+    "Hero Name": "Ana",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/0b/Ana_square_tile.png/revision/latest?cb=20190326222746"
+  },
+  {
+    "Hero Name": "Anduin",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/4/41/AnduinArt.jpg/revision/latest/scale-to-width-down/240?cb=20190427042456"
+  },
+  {
+    "Hero Name": "Anub'arak",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/9d/Anub%27arakArt.jpg/revision/latest/scale-to-width-down/240?cb=20140930182418"
+  },
+  {
+    "Hero Name": "Artanis",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/de/ArtanisArt.jpg/revision/latest/scale-to-width-down/240?cb=20151105215900"
+  },
+  {
+    "Hero Name": "Arthas",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/a/a5/ArthasArt.jpg/revision/latest/scale-to-width-down/240?cb=20150907211909"
+  },
+  {
+    "Hero Name": "Auriel",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/7/79/AurielArt.jpg/revision/latest/scale-to-width-down/240?cb=20160802004013"
+  },
+  {
+    "Hero Name": "Azmodan",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/6d/AzmodanArt.jpg/revision/latest/scale-to-width-down/240?cb=20141014184310"
+  },
+  {
+    "Hero Name": "Blaze",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/c/cf/BlazeArt.jpg/revision/latest/scale-to-width-down/240?cb=20180109154021"
+  },
+  {
+    "Hero Name": "Brightwing",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/9c/BrightwingArt.jpg/revision/latest/scale-to-width-down/240?cb=20140411165003"
+  },
+  {
+    "Hero Name": "Cassia",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/97/CassiaArt.jpg/revision/latest/scale-to-width-down/240?cb=20170330173701"
+  },
+  {
+    "Hero Name": "Chen",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/8/8d/ChenArt.jpg/revision/latest/scale-to-width-down/240?cb=20140909181800"
+  },
+  {
+    "Hero Name": "Cho",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/97/Cho%27gallArt.jpg/revision/latest/scale-to-width-down/240?cb=20151118134346"
+  },
+  {
+    "Hero Name": "Chromie",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/6c/ChromieArt.jpg/revision/latest/scale-to-width-down/240?cb=20160514121229"
+  },
+  {
+    "Hero Name": "D.Va",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/dc/DVaArt.jpg/revision/latest/scale-to-width-down/240?cb=20170510110014"
+  },
+  {
+    "Hero Name": "Deathwing",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/8/81/Deathwing_square_tile.png/revision/latest?cb=20201119010931"
+  },
+  {
+    "Hero Name": "Deckard",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/c/c6/Deckard_square_tile.png/revision/latest?cb=20190326222758"
+  },
+  {
+    "Hero Name": "Dehaka",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/f/f0/Dehaka_square_tile.png/revision/latest?cb=20190326222800"
+  },
+  {
+    "Hero Name": "Diablo",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/00/Diablo_square_tile.png/revision/latest?cb=20190326222801"
+  },
+  {
+    "Hero Name": "E.T.C.",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/6b/E.t.c._square_tile.png/revision/latest?cb=20190326222802"
+  },
+  {
+    "Hero Name": "Falstad",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/a/ac/Falstad_square_tile.png/revision/latest?cb=20190326222804"
+  },
+  {
+    "Hero Name": "Fenix",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/1/1d/Fenix_square_tile.png/revision/latest?cb=20190326222806"
+  },
+  {
+    "Hero Name": "Gall",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/02/Gall_square_tile.png/revision/latest?cb=20190326222807"
+  },
+  {
+    "Hero Name": "Garrosh",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/03/Garrosh_square_tile.png/revision/latest?cb=20190326222809"
+  },
+  {
+    "Hero Name": "Gazlowe",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/3/36/Gazlowe_square_tile.png/revision/latest?cb=20201122030838"
+  },
+  {
+    "Hero Name": "Genji",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/0d/Genji_square_tile.png/revision/latest?cb=20190326222813"
+  },
+  {
+    "Hero Name": "Greymane",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/8/88/GennGreymaneArt.jpg/revision/latest/scale-to-width-down/240?cb=20151107002543"
+  },
+  {
+    "Hero Name": "Gul'dan",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/d4/Gul%27dan_square_tile.png/revision/latest?cb=20190326222816"
+  },
+  {
+    "Hero Name": "Hanzo",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/b/bc/Hanzo_square_tile.png/revision/latest?cb=20190326222818"
+  },
+  {
+    "Hero Name": "Hogger",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/d0/Hogger_square_tile.png/revision/latest?cb=20201229013046"
+  },
+  {
+    "Hero Name": "Illidan",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/69/Illidan_square_tile.png/revision/latest?cb=20190326222819"
+  },
+  {
+    "Hero Name": "Imperius",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/a/a5/Imperius_square_tile.png/revision/latest?cb=20190326222821"
+  },
+  {
+    "Hero Name": "Jaina",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/7/78/Jaina_square_tile.png/revision/latest?cb=20190326222823"
+  },
+  {
+    "Hero Name": "Johanna",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/e/e5/Johanna_square_tile.png/revision/latest?cb=20190326222825"
+  },
+  {
+    "Hero Name": "Junkrat",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/69/Junkrat_square_tile.png/revision/latest?cb=20190326222826"
+  },
+  {
+    "Hero Name": "Kael'thas",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/c/c6/Kael%27thas_square_tile.png/revision/latest?cb=20190326222828"
+  },
+  {
+    "Hero Name": "Kel'Thuzad",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/09/Kel%27thuzad_square_tile.png/revision/latest?cb=20190326222828"
+  },
+  {
+    "Hero Name": "Kerrigan",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/64/Kerrigan_square_tile.png/revision/latest?cb=20190326222829"
+  },
+  {
+    "Hero Name": "Kharazim",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/8/8a/Kharazim_square_tile.png/revision/latest?cb=20190326222831"
+  },
+  {
+    "Hero Name": "Leoric",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/6c/Leoric_square_tile.png/revision/latest?cb=20190326222832"
+  },
+  {
+    "Hero Name": "Li Li",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/8/82/Li_li_square_tile.png/revision/latest?cb=20190326222832"
+  },
+  {
+    "Hero Name": "Li-Ming",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/0f/Li-ming_square_tile.png/revision/latest?cb=20190326222833"
+  },
+  {
+    "Hero Name": "Lt. Morales",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/1/18/Lt._morales_square_tile.png/revision/latest?cb=20190326222835"
+  },
+  {
+    "Hero Name": "L?cio",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/4/42/L%C3%BAcio_square_tile.png/revision/latest?cb=20190326222835"
+  },
+  {
+    "Hero Name": "Lunara",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/95/Lunara_square_tile.png/revision/latest?cb=20190326222836"
+  },
+  {
+    "Hero Name": "Maiev",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/e/e1/Maiev_square_tile.png/revision/latest?cb=20190326222837"
+  },
+  {
+    "Hero Name": "MalGanis",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/7/74/Mal%27ganis_square_tile.png/revision/latest?cb=20190503090708"
+  },
+  {
+    "Hero Name": "Malfurion",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/c/cd/Malfurion_square_tile.png/revision/latest?cb=20190326222838"
+  },
+  {
+    "Hero Name": "Malthael",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/d0/Malthael_square_tile.png/revision/latest?cb=20190326222840"
+  },
+  {
+    "Hero Name": "Medivh",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/f/fa/Medivh_square_tile.png/revision/latest?cb=20190326222842"
+  },
+  {
+    "Hero Name": "Mei",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/08/Mei_square_tile.png/revision/latest?cb=20200617121830"
+  },
+  {
+    "Hero Name": "Mephisto",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/5/57/Mephisto_square_tile.png/revision/latest?cb=20190326222842"
+  },
+  {
+    "Hero Name": "Muradin",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/8/84/Muradin_square_tile.png/revision/latest?cb=20190326222843"
+  },
+  {
+    "Hero Name": "Murky",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/f/f9/Murky_square_tile.png/revision/latest?cb=20190326222845"
+  },
+  {
+    "Hero Name": "Nazeebo",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/91/Nazeebo_square_tile.png/revision/latest?cb=20190326222846"
+  },
+  {
+    "Hero Name": "Nova",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/c/ce/Nova_square_tile.png/revision/latest?cb=20190326222846"
+  },
+  {
+    "Hero Name": "Orphea",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/e/e4/Orphea_square_tile.png/revision/latest?cb=20190326222849"
+  },
+  {
+    "Hero Name": "Probius",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/92/Probius_square_tile.png/revision/latest?cb=20190326222851"
+  },
+  {
+    "Hero Name": "Qhira",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/7/7d/Qhira_square_tile.png/revision/latest?cb=20190729232915"
+  },
+  {
+    "Hero Name": "Ragnaros",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/d6/Ragnaros_square_tile.png/revision/latest?cb=20190326222853"
+  },
+  {
+    "Hero Name": "Raynor",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/7/7b/Raynor_square_tile.png/revision/latest?cb=20190326222853"
+  },
+  {
+    "Hero Name": "Rehgar",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/a/aa/Rehgar_square_tile.png/revision/latest?cb=20190326222855"
+  },
+  {
+    "Hero Name": "Rexxar",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/8/80/Rexxar_square_tile.png/revision/latest?cb=20190326222855"
+  },
+  {
+    "Hero Name": "Samuro",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/08/Samuro_square_tile.png/revision/latest?cb=20190326222857"
+  },
+  {
+    "Hero Name": "Sgt. Hammer",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/1/14/Sgt._hammer_square_tile.png/revision/latest?cb=20190326222858"
+  },
+  {
+    "Hero Name": "Sonya",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/e/eb/Sonya_square_tile.png/revision/latest?cb=20190326222859"
+  },
+  {
+    "Hero Name": "Stitches",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/f/fd/Stitches_square_tile.png/revision/latest?cb=20190326222859"
+  },
+  {
+    "Hero Name": "Stukov",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/6a/Stukov_square_tile.png/revision/latest?cb=20190326222900"
+  },
+  {
+    "Hero Name": "Sylvanas",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/a/a6/Sylvanas_square_tile.png/revision/latest?cb=20190326222901"
+  },
+  {
+    "Hero Name": "Tassadar",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/d6/Tassadar_square_tile.png/revision/latest?cb=20200415200230"
+  },
+  {
+    "Hero Name": "The Butcher",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/c/c9/The_butcher_square_tile.png/revision/latest?cb=20190326222903"
+  },
+  {
+    "Hero Name": "The Lost Vikings",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/6/66/The_lost_vikings_square_tile.png/revision/latest?cb=20190326222905"
+  },
+  {
+    "Hero Name": "Thrall",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/f/f0/Thrall_square_tile.png/revision/latest?cb=20190326222906"
+  },
+  {
+    "Hero Name": "Tracer",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/a/a0/Tracer_square_tile.png/revision/latest?cb=20190326222906"
+  },
+  {
+    "Hero Name": "Tychus",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/b/b6/Tychus_square_tile.png/revision/latest?cb=20190326222907"
+  },
+  {
+    "Hero Name": "Tyrael",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/2/28/Tyrael_square_tile.png/revision/latest?cb=20190326222908"
+  },
+  {
+    "Hero Name": "Tyrande",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/8/87/Tyrande_square_tile.png/revision/latest?cb=20190326222910"
+  },
+  {
+    "Hero Name": "Uther",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/2/20/Uther_square_tile.png/revision/latest?cb=20190326222911"
+  },
+  {
+    "Hero Name": "Valeera",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/4/42/Valeera_square_tile.png/revision/latest?cb=20190326222911"
+  },
+  {
+    "Hero Name": "Valla",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/9f/Valla_square_tile.png/revision/latest?cb=20190326222912"
+  },
+  {
+    "Hero Name": "Varian",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/d9/Varian_square_tile.png/revision/latest?cb=20190326222914"
+  },
+  {
+    "Hero Name": "Whitemane",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/7/7b/Whitemane_square_tile.png/revision/latest?cb=20190326222914"
+  },
+  {
+    "Hero Name": "Xul",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/f/fc/Xul_square_tile.png/revision/latest?cb=20190326222915"
+  },
+  {
+    "Hero Name": "Yrel",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/0a/Yrel_square_tile.png/revision/latest?cb=20190326222916"
+  },
+  {
+    "Hero Name": "Zagara",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/5/57/Zagara_square_tile.png/revision/latest?cb=20190326222917"
+  },
+  {
+    "Hero Name": "Zarya",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/a/a0/Zarya_square_tile.png/revision/latest?cb=20190326222918"
+  },
+  {
+    "Hero Name": "Zeratul",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/9/9d/Zeratul_square_tile.png/revision/latest?cb=20190326222919"
+  },
+  {
+    "Hero Name": "Zul'jin",
+    "icon": "https://static.wikia.nocookie.net/allstars_gamepedia/images/0/01/Zul%27jin_square_tile.png/revision/latest?cb=20190326222921"
+  }
+]

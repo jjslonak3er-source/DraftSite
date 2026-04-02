@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>HotS Draft Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+<a href="index.html" class="back-button">← Home</a>
+<h1>Whisper Draft Simulator</h1>
+
+
+
+<div class="container">
+
+<div class="team">
+<h2>Blue Team</h2>
+
+<div class="slot" id="b1"></div>
+<div class="slot" id="b2"></div>
+<div class="slot" id="b3"></div>
+<div class="slot" id="b4"></div>
+<div class="slot" id="b5"></div>
+
+</div>
+
+
+<div class="champion-area">
+
+<div class="role-filters">
+
+<button class="role-btn" data-role="Tank">Tank</button>
+<button class="role-btn" data-role="Offlane">Offlane</button>
+<button class="role-btn" data-role="RangedDPS">DPS</button>
+<button class="role-btn" data-role="Flex">Flex</button>
+<button class="role-btn" data-role="Healer">Healer</button>
+
+</div>
+
+<div class="search-container">
+<input id="search" placeholder="Search Hero">
+<button id="botPick">Bot Pick</button>
+</div>
+
+<div class="recommend-bar">
+<div id="recommendations"></div>
+</div>
+
+<div id="championPool"></div>
+
+</div>
+
+
+<div class="team">
+<h2>Red Team</h2>
+
+<div class="slot" id="r1"></div>
+<div class="slot" id="r2"></div>
+<div class="slot" id="r3"></div>
+<div class="slot" id="r4"></div>
+<div class="slot" id="r5"></div>
+
+</div>
+
+</div>
+
+<script src="heroes.js"></script>
+<script src="script_hots.js"></script>
+
+
+
+
+
+
+
+
+<div class="draft-eval">
+
+<div class="eval-label blue-label">Blue</div>
+
+<div class="eval-bar">
+<div class="blue-win" id="blueWin"></div>
+<div class="red-win" id="redWin"></div>
+</div>
+
+<div class="eval-label red-label">Red</div>
+
+</div>
+
+</body>
+</html>
