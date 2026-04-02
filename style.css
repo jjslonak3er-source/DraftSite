@@ -651,3 +651,14 @@ margin-bottom:20px;
 font-weight:bold;
 color:#6fa3ff;
 }
+
+.map-label {
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.map-select {
+  margin-left: 4px;
+  padding: 4px 8px;
+  font-size: 14px;
+}
