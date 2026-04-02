@@ -319,7 +319,7 @@ let available = champions
 let results = []
 
 tank_role_target = 9.75
-dps_role_target = 11
+dps_role_target = 11.5
 support_role_target = 8.25
 flex_role_target = 12
 offlane_role_target = 10
