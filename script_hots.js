@@ -230,6 +230,7 @@ blind.forEach(r => {
 console.log("Pairings loaded:",Object.keys(pairingLookup).length)
 console.log("Matchups loaded:",Object.keys(matchupLookup).length)
 
+console.log("Blinds loaded:",Object.keys(blindLookup).length)
 }
 
 function roleFilter(champ){
