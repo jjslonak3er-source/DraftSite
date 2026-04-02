@@ -415,7 +415,7 @@ let redCount = red.length()
 let totalCount = blueCount + redCount
 
 
-let blindable = blindLookup[champ]?.Blindable ?? 0
+blindable = blindLookup[champ]?.Blindable ?? 0
 
 if(totalCount > 3){
   blindable = 1
@@ -424,7 +424,7 @@ if(totalCount > 3){
 let role_score = champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted
 let stat_score = champ_engage_adjusted + champ_peel_adjusted + champ_waveclear_adjusted + champ_sustain_adjusted
 
-let score = (((pairScore + matchScore))/100) * role_score * stat_score * blindable
+let score = (((pairScore + matchScore))) * role_score * stat_score * blindable
 
 results.push([champ,score])
 
