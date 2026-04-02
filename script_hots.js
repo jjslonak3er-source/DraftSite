@@ -15,6 +15,49 @@ let statLookup = {}
 let blindLookup = {}
 let activeRole = null
 
+/*------------------------------
+load maps
+--------------------------------*/
+
+// Fetch and populate map dropdown
+fetch('hots_map_matrix.json')
+  .then(response => {
+    if (!response.ok) throw new Error('Failed to load maps JSON');
+    return response.json();
+  })
+  .then(mapData => {
+    const mapSelect = document.getElementById('mapSelect');
+
+    // Clear existing options (like "Loading maps...")
+    mapSelect.innerHTML = '';
+
+    // Assume mapData is an object with map names as keys, e.g.
+    // { "Infernal Shrines": {...}, "Towers of Doom": {...}, ... }
+    const maps = Object.keys(mapData);
+
+    // Add a default placeholder option
+    const defaultOption = document.createElement('option');
+    defaultOption.value = '';
+    defaultOption.textContent = 'Select a map';
+    defaultOption.disabled = true;
+    defaultOption.selected = true;
+    mapSelect.appendChild(defaultOption);
+
+    // Create option for each map
+    maps.forEach(mapName => {
+      const option = document.createElement('option');
+      option.value = mapName;
+      option.textContent = mapName;
+      mapSelect.appendChild(option);
+    });
+  })
+  .catch(error => {
+    console.error('Error loading maps:', error);
+    // Optionally show an error option in dropdown
+    const mapSelect = document.getElementById('mapSelect');
+    mapSelect.innerHTML = '<option value="">Failed to load maps</option>';
+  });
+
 /* -----------------------------
 LOAD CHAMPIONS
 ----------------------------- */
