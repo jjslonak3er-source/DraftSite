@@ -410,8 +410,8 @@ let champ_waveclear_adjusted = champ_waveclear * final_waveclear_value
 let champ_sustain_adjusted = champ_sustain * final_sustain_value
 
 
-let blueCount = blue.length()
-let redCount = red.length()
+let blueCount = blue.length
+let redCount = red.length
 let totalCount = blueCount + redCount
 
 
@@ -424,7 +424,7 @@ if(totalCount > 3){
 let role_score = champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted
 let stat_score = champ_engage_adjusted + champ_peel_adjusted + champ_waveclear_adjusted + champ_sustain_adjusted
 
-let score = (((pairScore + matchScore)^2)/100) * role_score * stat_score * blindable
+let score = (((pairScore + matchScore)**2)/100) * role_score * stat_score * blindable
 
 results.push([champ,score])
 
