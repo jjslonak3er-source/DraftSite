@@ -75,8 +75,8 @@
     "Hero Name": "Azmodan",
     "Healer": 0,
     "Tank": 0,
-    "RangedDPS": 4,
-    "Flex": 0,
+    "RangedDPS": 3.75,
+    "Flex": 4,
     "Offlane": 0
   },
   {
@@ -123,7 +123,7 @@
     "Hero Name": "Chromie",
     "Healer": 0,
     "Tank": 0,
-    "RangedDPS": 5,
+    "RangedDPS": 6.5,
     "Flex": 7,
     "Offlane": 0
   },
