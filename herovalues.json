@@ -618,10 +618,10 @@
   {
     "Hero Name": "Tyrael",
     "Wave Clear": 4,
-    "Engage": 4,
-    "Peel": 5,
+    "Engage": 3,
+    "Peel": 4,
     "TeamSustain": 3,
-    "SelfSustain": 2
+    "SelfSustain": 8
   },
   {
     "Hero Name": "Tyrande",
