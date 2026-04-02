@@ -418,11 +418,8 @@ let totalCount = blueCount + redCount
 let blindable = blindLookup[champ]?.Blindable ?? 0
 
 if(totalCount > 3){
-  blindLookup = 1
+  blindable = 1
 } 
-
-
-
 
 let role_score = champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted
 let stat_score = champ_engage_adjusted + champ_peel_adjusted + champ_waveclear_adjusted + champ_sustain_adjusted
