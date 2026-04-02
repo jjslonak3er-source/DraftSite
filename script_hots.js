@@ -14,6 +14,10 @@ let statScores = {}
 let statLookup = {}
 let blindLookup = {}
 let activeRole = null
+let mapData = {}; // global
+
+
+
 
 /*------------------------------
 load maps
@@ -58,6 +62,14 @@ fetch('hots_map_matrix.json')
     console.error('Error loading maps:', error);
     const mapSelect = document.getElementById('mapSelect');
     mapSelect.innerHTML = '<option value="">Failed to load maps</option>';
+  });
+
+
+  fetch('hots_map_matrix.json')
+  .then(r => r.json())
+  .then(data => {
+    mapData = data; // store globally
+    populateMapDropdown(data); // your current mapSelect code
   });
 
 /* -----------------------------
@@ -483,10 +495,17 @@ if(totalCount != 0){
   blindable = 1
 } 
 
+const selectedMap = document.getElementById("mapSelect")?.value || null;
+
+let mapMultiplier = 1; // default
+    if (selectedMap && mapData[champ] && mapData[champ][selectedMap] !== undefined) {
+        mapMultiplier = mapData[champ][selectedMap]; // value from your JSON
+    }
+
 let role_score = champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted
 let stat_score = champ_engage_adjusted + champ_peel_adjusted + champ_waveclear_adjusted + champ_sustain_adjusted
 
-let score = (((pairScore + matchScore + blindable))) * role_score * stat_score * blindable + blindable
+let score = (((pairScore + matchScore + blindable))) * role_score * stat_score * blindable * mapMultiplier + blindable
 
 results.push([champ,score])
 
