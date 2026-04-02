@@ -17,7 +17,7 @@
   },
   "Alarak": {
     "Alterac Pass": 0.7878186231,
-    "Battlefield of Eternity": 0.8006965374,
+    "Battlefield of Eternity": 0.8806965374,
     "Blackheart's Bay": 0.8147969726,
     "Braxis Holdout": 0.8281701824,
     "Cursed Hollow": 0.8124796007,
@@ -97,7 +97,7 @@
   },
   "Artanis": {
     "Alterac Pass": 0.8206544399,
-    "Battlefield of Eternity": 0.8126837526,
+    "Battlefield of Eternity": 0.8826837526,
     "Blackheart's Bay": 0.8267619862,
     "Braxis Holdout": 0.8345887326,
     "Cursed Hollow": 0.8195047386,
@@ -337,7 +337,7 @@
   },
   "E.T.C.": {
     "Alterac Pass": 0.7930053062,
-    "Battlefield of Eternity": 0.8130589646,
+    "Battlefield of Eternity": 0.8330589646,
     "Blackheart's Bay": 0.8178469676,
     "Braxis Holdout": 0.819332764,
     "Cursed Hollow": 0.8113054491,
@@ -353,7 +353,7 @@
   },
   "Falstad": {
     "Alterac Pass": 0.8410759512,
-    "Battlefield of Eternity": 0.7689647209,
+    "Battlefield of Eternity": 0.7189647209,
     "Blackheart's Bay": 0.8069519718,
     "Braxis Holdout": 0.7795370634,
     "Cursed Hollow": 0.8097641061,
@@ -369,7 +369,7 @@
   },
   "Fenix": {
     "Alterac Pass": 0.8078162537,
-    "Battlefield of Eternity": 0.8041200067,
+    "Battlefield of Eternity": 0.8241200067,
     "Blackheart's Bay": 0.7934657844,
     "Braxis Holdout": 0.8476736496,
     "Cursed Hollow": 0.7855147164,
@@ -449,7 +449,7 @@
   },
   "Greymane": {
     "Alterac Pass": 0.8162145069,
-    "Battlefield of Eternity": 0.7896317317,
+    "Battlefield of Eternity": 0.8496317317,
     "Blackheart's Bay": 0.8243090255,
     "Braxis Holdout": 0.7046742756,
     "Cursed Hollow": 0.8458109131,
@@ -545,7 +545,7 @@
   },
   "Jaina": {
     "Alterac Pass": 0.7882790562,
-    "Battlefield of Eternity": 0.7951777321,
+    "Battlefield of Eternity": 0.8151777321,
     "Blackheart's Bay": 0.8450202006,
     "Braxis Holdout": 0.7457732952,
     "Cursed Hollow": 0.8225596309,
@@ -609,7 +609,7 @@
   },
   "Kel'Thuzad": {
     "Alterac Pass": 0.8026932071,
-    "Battlefield of Eternity": 0.861061197,
+    "Battlefield of Eternity": 0.891061197,
     "Blackheart's Bay": 0.7216600935,
     "Braxis Holdout": 0.837614308,
     "Cursed Hollow": 0.727526609,
@@ -689,7 +689,7 @@
   },
   "Li-Ming": {
     "Alterac Pass": 0.7985148055,
-    "Battlefield of Eternity": 0.8655590175,
+    "Battlefield of Eternity": 0.9155590175,
     "Blackheart's Bay": 0.8270004705,
     "Braxis Holdout": 0.761113554,
     "Cursed Hollow": 0.8165728904,
@@ -849,7 +849,7 @@
   },
   "Mephisto": {
     "Alterac Pass": 0.7850860626,
-    "Battlefield of Eternity": 0.7926347528,
+    "Battlefield of Eternity": 0.7126347528,
     "Blackheart's Bay": 0.7064004646,
     "Braxis Holdout": 0.8162186429,
     "Cursed Hollow": 0.7210056547,
@@ -897,18 +897,18 @@
   },
   "Nazeebo": {
     "Alterac Pass": 0.792676945,
-    "Battlefield of Eternity": 0.8113946412,
+    "Battlefield of Eternity": 0.8913946412,
     "Blackheart's Bay": 0.7874978519,
     "Braxis Holdout": 0.8026694774,
     "Cursed Hollow": 0.8134119566,
     "Dragon Shire": 0.8380385006,
     "Garden of Terror": 0.807520845,
     "Hanamura Temple": 0.7032319498,
-    "Infernal Shrines": 0.7922392328,
+    "Infernal Shrines": 0.8722392328,
     "Sky Temple": 0.779462157,
-    "Tomb of the Spider Queen": 0.825591773,
+    "Tomb of the Spider Queen": 0.895591773,
     "Towers of Doom": 0.7922846091,
-    "Volskaya Foundry": 0.8409290907,
+    "Volskaya Foundry": 0.8909290907,
     "Warhead Junction": 0.7649496365
   },
   "Nova": {
@@ -929,7 +929,7 @@
   },
   "Orphea": {
     "Alterac Pass": 0.8043113123,
-    "Battlefield of Eternity": 0.7786850187,
+    "Battlefield of Eternity": 0.7086850187,
     "Blackheart's Bay": 0.7895941551,
     "Braxis Holdout": 0.8547467837,
     "Cursed Hollow": 0.7832658375,
@@ -1073,7 +1073,7 @@
   },
   "Sonya": {
     "Alterac Pass": 0.816640968,
-    "Battlefield of Eternity": 0.8092862939,
+    "Battlefield of Eternity": 0.8292862939,
     "Blackheart's Bay": 0.8640026217,
     "Braxis Holdout": 0.7983326291,
     "Cursed Hollow": 0.7965517611,
@@ -1137,7 +1137,7 @@
   },
   "Tassadar": {
     "Alterac Pass": 0.796564929,
-    "Battlefield of Eternity": 0.7842174683,
+    "Battlefield of Eternity": 0.7042174683,
     "Blackheart's Bay": 0.8812221256,
     "Braxis Holdout": 0.8010629216,
     "Cursed Hollow": 0.8161627002,
@@ -1185,7 +1185,7 @@
   },
   "Thrall": {
     "Alterac Pass": 0.8027717251,
-    "Battlefield of Eternity": 0.8391324239,
+    "Battlefield of Eternity": 0.8591324239,
     "Blackheart's Bay": 0.7543323713,
     "Braxis Holdout": 0.8138008961,
     "Cursed Hollow": 0.7772817668,
@@ -1249,7 +1249,7 @@
   },
   "Tyrande": {
     "Alterac Pass": 0.8103371642,
-    "Battlefield of Eternity": 0.8046637412,
+    "Battlefield of Eternity": 0.8446637412,
     "Blackheart's Bay": 0.7822156992,
     "Braxis Holdout": 0.7973023929,
     "Cursed Hollow": 0.8127436404,
@@ -1297,7 +1297,7 @@
   },
   "Valla": {
     "Alterac Pass": 0.8305087047,
-    "Battlefield of Eternity": 0.8159100062,
+    "Battlefield of Eternity": 0.9059100062,
     "Blackheart's Bay": 0.7702431769,
     "Braxis Holdout": 0.7624330051,
     "Cursed Hollow": 0.788197262,
@@ -1352,9 +1352,9 @@
     "Dragon Shire": 0.8026705168,
     "Garden of Terror": 0.8211204367,
     "Hanamura Temple": 0.7050804649,
-    "Infernal Shrines": 0.8044011332,
+    "Infernal Shrines": 0.8844011332,
     "Sky Temple": 0.8332234905,
-    "Tomb of the Spider Queen": 0.8296583494,
+    "Tomb of the Spider Queen": 0.8896583494,
     "Towers of Doom": 0.8121638357,
     "Volskaya Foundry": 0.8264605488,
     "Warhead Junction": 0.7639959303
@@ -1377,7 +1377,7 @@
   },
   "Zagara": {
     "Alterac Pass": 0.80539895,
-    "Battlefield of Eternity": 0.7695679047,
+    "Battlefield of Eternity": 0.8395679047,
     "Blackheart's Bay": 0.8151430232,
     "Braxis Holdout": 0.8243911999,
     "Cursed Hollow": 0.8047914486,
@@ -1425,7 +1425,7 @@
   },
   "Zul'jin": {
     "Alterac Pass": 0.7769512217,
-    "Battlefield of Eternity": 0.8263567166,
+    "Battlefield of Eternity": 0.8463567166,
     "Blackheart's Bay": 0.7055525318,
     "Braxis Holdout": 0.9095705658,
     "Cursed Hollow": 0.7826066851,
