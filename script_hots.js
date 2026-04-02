@@ -586,7 +586,7 @@ let redMatch  = redMatchupScore(blue, red)
 let blueScore = bluePair + blueMatch
 let redScore  = redPair  + redMatch
 
-let total = (blueScore - redScore)/100
+let total = (blueScore - redScore)/25
 
 return total
 }
