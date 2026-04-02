@@ -363,9 +363,9 @@
     "Hero Name": "L?cio",
     "Wave Clear": 2,
     "Engage": 3,
-    "Peel": 7,
-    "TeamSustain": 8,
-    "SelfSustain": 4
+    "Peel": 8,
+    "TeamSustain": 8.5,
+    "SelfSustain": 5
   },
   {
     "Hero Name": "Lunara",
