@@ -89,7 +89,7 @@
   },
   {
     "Hero Name": "Falstad",
-    "Blindable": 1
+    "Blindable": 0
   },
   {
     "Hero Name": "Fenix",
@@ -317,7 +317,7 @@
   },
   {
     "Hero Name": "Uther",
-    "Blindable": 1
+    "Blindable": 0
   },
   {
     "Hero Name": "Valeera",

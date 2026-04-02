@@ -635,8 +635,8 @@
     "Hero Name": "Uther",
     "Wave Clear": 1,
     "Engage": 4,
-    "Peel": 6,
-    "TeamSustain": 5,
+    "Peel": 5.5,
+    "TeamSustain": 6.75,
     "SelfSustain": 4
   },
   {
