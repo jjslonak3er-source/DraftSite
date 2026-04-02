@@ -16,7 +16,13 @@ let blindLookup = {}
 let activeRole = null
 let mapData = {}; // global
 
+const mapSelect = document.getElementById("mapSelect");
 
+if (mapSelect) {
+  mapSelect.addEventListener("change", () => {
+    updateRecommendations(); // recalc scores with the new map
+  });
+}
 
 
 /*------------------------------
