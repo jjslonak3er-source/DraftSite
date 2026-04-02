@@ -19,7 +19,6 @@ let activeRole = null
 load maps
 --------------------------------*/
 
-// Fetch and populate map dropdown
 fetch('hots_map_matrix.json')
   .then(response => {
     if (!response.ok) throw new Error('Failed to load maps JSON');
@@ -28,12 +27,17 @@ fetch('hots_map_matrix.json')
   .then(mapData => {
     const mapSelect = document.getElementById('mapSelect');
 
-    // Clear existing options (like "Loading maps...")
     mapSelect.innerHTML = '';
 
-    // Assume mapData is an object with map names as keys, e.g.
-    // { "Infernal Shrines": {...}, "Towers of Doom": {...}, ... }
-    const maps = Object.keys(mapData);
+    // Grab the first hero's maps (assuming all heroes have the same maps)
+    const firstHero = Object.keys(mapData)[0];
+
+    if (!firstHero) {
+      console.error('No heroes found in map data');
+      return;
+    }
+
+    const maps = Object.keys(mapData[firstHero]);
 
     // Add a default placeholder option
     const defaultOption = document.createElement('option');
@@ -43,7 +47,6 @@ fetch('hots_map_matrix.json')
     defaultOption.selected = true;
     mapSelect.appendChild(defaultOption);
 
-    // Create option for each map
     maps.forEach(mapName => {
       const option = document.createElement('option');
       option.value = mapName;
@@ -53,7 +56,6 @@ fetch('hots_map_matrix.json')
   })
   .catch(error => {
     console.error('Error loading maps:', error);
-    // Optionally show an error option in dropdown
     const mapSelect = document.getElementById('mapSelect');
     mapSelect.innerHTML = '<option value="">Failed to load maps</option>';
   });
