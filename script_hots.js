@@ -299,7 +299,7 @@ let results = []
 
 tank_role_target = 10
 dps_role_target = 11
-support_role_target = 9
+support_role_target = 8.5
 flex_role_target = 12
 offlane_role_target = 10
 
@@ -337,7 +337,7 @@ Engage peel waveclear sustain
 engage_target = 20
 peel_target = 20
 waveclear_target = 25
-sustain_target = 18.5
+sustain_target = 17.5
 
 
 for(let champ of blue){

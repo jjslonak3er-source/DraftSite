@@ -282,10 +282,10 @@
   {
     "Hero Name": "Johanna",
     "Healer": 0,
-    "Tank": 8,
+    "Tank": 7.5,
     "RangedDPS": 0,
     "Flex": 0,
-    "Offlane": 4
+    "Offlane": 3
   },
   {
     "Hero Name": "Junkrat",
