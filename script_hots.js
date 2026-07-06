@@ -484,7 +484,6 @@ let champ_waveclear_adjusted = champ_waveclear * final_waveclear_value
 let champ_sustain_adjusted = champ_sustain * final_sustain_value
 
 
-
 let totalCount = 0
 
 for(let thischamp of blue){
@@ -496,9 +495,14 @@ for(let thischamp of red){
 
 blindable = blindLookup[champ]?.Blindable ?? 0
 
+
 if(totalCount != 0){
   blindable = 1
 } 
+
+let pickPosition = Math.max(0, blindable / (totalCount + 1))
+
+
 
 const selectedMap = document.getElementById("mapSelect")?.value || null;
 
@@ -510,7 +514,7 @@ let mapMultiplier = 1; // default
 let role_score = champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted
 let stat_score = champ_engage_adjusted + champ_peel_adjusted + champ_waveclear_adjusted + champ_sustain_adjusted
 
-let score = ((((pairScore + matchScore + blindable))) * role_score * stat_score * blindable) * mapMultiplier + blindable
+let score = ((((pairScore + matchScore + pickPosition))) * role_score * stat_score * pickPosition) * mapMultiplier + pickPosition
 
 results.push([champ,score])
 
