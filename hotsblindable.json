@@ -21,7 +21,7 @@
   },
   {
     "Hero Name": "Anub'arak",
-    "Blindable": 1
+    "Blindable": 0.5
   },
   {
     "Hero Name": "Artanis",
@@ -49,7 +49,7 @@
   },
   {
     "Hero Name": "Cassia",
-    "Blindable": 1
+    "Blindable": 0.5
   },
   {
     "Hero Name": "Chen",
@@ -61,7 +61,7 @@
   },
   {
     "Hero Name": "Chromie",
-    "Blindable": 1
+    "Blindable": 0.5
   },
   {
     "Hero Name": "D.Va",
@@ -81,11 +81,11 @@
   },
   {
     "Hero Name": "Diablo",
-    "Blindable": 1
+    "Blindable": 0.7
   },
   {
     "Hero Name": "E.T.C.",
-    "Blindable": 0
+    "Blindable": 0.25
   },
   {
     "Hero Name": "Falstad",
@@ -121,7 +121,7 @@
   },
   {
     "Hero Name": "Hanzo",
-    "Blindable": 1
+    "Blindable": 0.3
   },
   {
     "Hero Name": "Hogger",
@@ -141,11 +141,11 @@
   },
   {
     "Hero Name": "Johanna",
-    "Blindable": 1
+    "Blindable": 0.5
   },
   {
     "Hero Name": "Junkrat",
-    "Blindable": 1
+    "Blindable": 0.8
   },
   {
     "Hero Name": "Kaelthas",
@@ -165,7 +165,7 @@
   },
   {
     "Hero Name": "Leoric",
-    "Blindable": 1
+    "Blindable": 0.8
   },
   {
     "Hero Name": "Li Li",
@@ -181,15 +181,15 @@
   },
   {
     "Hero Name": "L?cio",
-    "Blindable": 1
+    "Blindable": 0.76
   },
   {
     "Hero Name": "Lunara",
-    "Blindable": 1
+    "Blindable": 0.2
   },
   {
     "Hero Name": "Maiev",
-    "Blindable": 1
+    "Blindable": 0.8
   },
   {
     "Hero Name": "MalGanis",
@@ -213,11 +213,11 @@
   },
   {
     "Hero Name": "Mephisto",
-    "Blindable": 1
+    "Blindable": 0.35
   },
   {
     "Hero Name": "Muradin",
-    "Blindable": 1
+    "Blindable": 0.3
   },
   {
     "Hero Name": "Murky",
@@ -253,7 +253,7 @@
   },
   {
     "Hero Name": "Rehgar",
-    "Blindable": 1
+    "Blindable": 0.6
   },
   {
     "Hero Name": "Rexxar",
@@ -269,7 +269,7 @@
   },
   {
     "Hero Name": "Sonya",
-    "Blindable": 1
+    "Blindable": 0.4
   },
   {
     "Hero Name": "Stitches",
@@ -281,7 +281,7 @@
   },
   {
     "Hero Name": "Sylvanas",
-    "Blindable": 1
+    "Blindable": 0.8
   },
   {
     "Hero Name": "Tassadar",
@@ -305,11 +305,11 @@
   },
   {
     "Hero Name": "Tychus",
-    "Blindable": 1
+    "Blindable": 0.1
   },
   {
     "Hero Name": "Tyrael",
-    "Blindable": 1
+    "Blindable": 0.7
   },
   {
     "Hero Name": "Tyrande",
