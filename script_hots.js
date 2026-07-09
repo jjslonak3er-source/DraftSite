@@ -4,6 +4,7 @@ const recommendBtn = document.getElementById("recommendBtn")
 
 let draggedChampion = null
 let usedChampions = new Set()
+let bannedChampions = new Set()
 
 let pairingLookup = {}
 let matchupLookup = {}
@@ -13,6 +14,8 @@ let roleLookup = {}
 let statScores = {}
 let statLookup = {}
 let blindLookup = {}
+let junglerLookup = {}
+let anchorLookup = {}
 let activeRole = null
 let mapData = {}; // global
 
@@ -29,53 +32,59 @@ if (mapSelect) {
 load maps
 --------------------------------*/
 
+// If page is opened via file://, fetch calls will usually fail — warn the user.
+const mapSelectElement = document.getElementById('mapSelect');
+if (window.location.protocol === 'file:') {
+  console.warn('Page loaded via file:// — fetch may fail. Serve the folder via HTTP.')
+  if (mapSelectElement) {
+    mapSelectElement.innerHTML = '<option value="">Serve this folder over HTTP (python -m http.server) to load maps</option>'
+  }
+}
+
+// Load map matrix once, populate the dropdown, and store globally.
 fetch('hots_map_matrix.json')
   .then(response => {
-    if (!response.ok) throw new Error('Failed to load maps JSON');
-    return response.json();
+    if (!response.ok) throw new Error('Failed to load maps JSON: ' + response.status)
+    return response.json()
   })
-  .then(mapData => {
-    const mapSelect = document.getElementById('mapSelect');
+  .then(data => {
+    mapData = data // store globally
 
-    mapSelect.innerHTML = '';
+    const mapSelect = document.getElementById('mapSelect')
+    if (!mapSelect) return
+
+    mapSelect.innerHTML = ''
 
     // Grab the first hero's maps (assuming all heroes have the same maps)
-    const firstHero = Object.keys(mapData)[0];
+    const firstHero = Object.keys(data)[0]
 
     if (!firstHero) {
-      console.error('No heroes found in map data');
-      return;
+      console.error('No heroes found in map data')
+      return
     }
 
-    const maps = Object.keys(mapData[firstHero]);
+    const maps = Object.keys(data[firstHero])
 
     // Add a default placeholder option
-    const defaultOption = document.createElement('option');
-    defaultOption.value = '';
-    defaultOption.textContent = 'Select a map';
-    defaultOption.disabled = true;
-    defaultOption.selected = true;
-    mapSelect.appendChild(defaultOption);
+    const defaultOption = document.createElement('option')
+    defaultOption.value = ''
+    defaultOption.textContent = 'Select a map'
+    defaultOption.disabled = true
+    defaultOption.selected = true
+    mapSelect.appendChild(defaultOption)
 
     maps.forEach(mapName => {
-      const option = document.createElement('option');
-      option.value = mapName;
-      option.textContent = mapName;
-      mapSelect.appendChild(option);
-    });
+      const option = document.createElement('option')
+      option.value = mapName
+      option.textContent = mapName
+      mapSelect.appendChild(option)
+    })
   })
   .catch(error => {
-    console.error('Error loading maps:', error);
-    const mapSelect = document.getElementById('mapSelect');
-    mapSelect.innerHTML = '<option value="">Failed to load maps</option>';
-  });
-
-
-  fetch('hots_map_matrix.json')
-  .then(r => r.json())
-  .then(data => {
-    mapData = data; // store globally
-  });
+    console.error('Error loading maps:', error)
+    const mapSelect = document.getElementById('mapSelect')
+    if (mapSelect) mapSelect.innerHTML = '<option value="">Failed to load maps</option>'
+  })
 
 /* -----------------------------
 LOAD CHAMPIONS
@@ -192,6 +201,39 @@ updateDraftWinChance()
 
 })
 
+function clearBanSlot(slot){
+  const champName = slot.dataset.champion
+  if(!champName) return
+
+  slot.dataset.champion = ""
+  slot.innerHTML = ""
+  bannedChampions.delete(champName)
+
+  loadChampions(filterChampions())
+  updateRecommendations()
+}
+
+document.querySelectorAll(".ban-slot").forEach(slot=>{
+  slot.addEventListener("dragover", e => e.preventDefault())
+
+  slot.addEventListener("drop", () => {
+    if(!draggedChampion) return
+
+    const champName = draggedChampion.name
+    slot.dataset.champion = champName
+    bannedChampions.add(champName)
+    slot.innerHTML = `
+<img src="${draggedChampion.icon}">
+<div class="champ-name">${champName}</div>
+`
+
+    loadChampions(filterChampions())
+    updateRecommendations()
+  })
+
+  slot.addEventListener("click", () => clearBanSlot(slot))
+})
+
 /* -----------------------------
 RETURN TO POOL
 ----------------------------- */
@@ -233,6 +275,7 @@ let value = search.value.toLowerCase()
 return champions.filter(c=>{
 
 if(usedChampions.has(c.name)) return false
+if(bannedChampions.has(c.name)) return false
 if(!c.name.toLowerCase().includes(value)) return false
 if(!roleFilter(c)) return false
 
@@ -272,11 +315,14 @@ stats.forEach(r => {
 
   statLookup[r["Hero Name"]] = {
     Engage: r.Engage,
-    Peel: r.RangedDPS,
-    Waveclear: r.Waveclear,
+    Peel: r.Peel,
+    WaveClear: r["Wave Clear"] ?? r.Waveclear,
     TeamSustain: r.TeamSustain,
     SelfSustain: r.SelfSustain
   }
+  // populate jungler lookup (binary 0/1)
+  junglerLookup[r["Hero Name"]] = r.Jungler ?? 0
+  anchorLookup[r["Hero Name"]] = r.Anchor ?? 0
 
 })
 
@@ -330,7 +376,7 @@ for(let j=i+1;j<team.length;j++){
 let key1 = team[i] + "|" + team[j]
 let key2 = team[j] + "|" + team[i]
 
-score += pairingLookup[key1] ?? pairingLookup[key2] ?? 0
+score += pairingLookup[key1] ?? 0
 
 }}
 
@@ -352,7 +398,8 @@ for(let r of red){
 let key1 = b + "|" + r
 let key2 = r + "|" + b
 
-score += matchupLookup[key1] ?? matchupLookup[key2] ?? 0
+score +=  matchupLookup[key1]  ?? 0
+score -=  matchupLookup[key2] ?? 0
 
 }}
 
@@ -376,15 +423,21 @@ let taken = new Set([...blue,...red])
 let available = champions
 .map(c=>c.name)
 .filter(c=>!taken.has(c))
+.filter(c=>!bannedChampions.has(c))
 .filter(c=>c !== "Cho" && c !== "Gall")
 
 let results = []
 
-tank_role_target = 9.75
+const selectedMap = document.getElementById("mapSelect")?.value || null;
+const needsJunglerBoost = (selectedMap === 'Dragon Shire') && !blue.some(c => junglerLookup[c] === 1 || junglerLookup[c] === '1');
+const anchorCountOnBlue = blue.filter(c => anchorLookup[c] === 1 || anchorLookup[c] === '1').length;
+const needsAnchorBoost = (selectedMap === 'Dragon Shire') && anchorCountOnBlue < 1.5;
+
+tank_role_target = 11
 dps_role_target = 11.5
-support_role_target = 8.25
-flex_role_target = 12
-offlane_role_target = 10
+support_role_target = 9
+flex_role_target = 13
+offlane_role_target = 11.5
 
 for(let champ of blue){
 
@@ -420,7 +473,7 @@ Engage peel waveclear sustain
 engage_target = 20
 peel_target = 18
 waveclear_target = 25
-sustain_target = 16
+sustain_target = 15
 
 
 for(let champ of blue){
@@ -455,8 +508,10 @@ for(let champ of available){
 
 let testBlue=[...blue,champ]
 
-let pairScore=teamPairScore(testBlue)
-let matchScore=matchupScore(testBlue,red)
+let pairScore=teamPairScore(testBlue) * 0.05 / 10
+// Reduce matchup influence: apply a small weight to matchScore
+let matchScore=matchupScore(testBlue,red) * 0.35 / 10
+let inversionMatchScore=matchupScore(red,testBlue) * 0.01
 
 /* weighted score */
 let champ_tank = roleLookup[champ]?.Tank ?? 1
@@ -493,30 +548,35 @@ for(let thischamp of red){
   totalCount += 1
 }
 
-blindable = blindLookup[champ]?.Blindable ?? 0
+// Blindable weighting: fewer picks -> higher impact; after 3 picks disregard
+let blindInfo = Number(blindLookup[champ]?.Blindable ?? 0)
+let blindWeight = totalCount < 5 ? (5 - totalCount) / 5 : 0
+let pickPosition = 1 + blindInfo * blindWeight
 
-
-if(totalCount != 0){
-  blindable = 1
-} 
-
-let pickPosition = Math.max(0, blindable / (totalCount + 1))
 
 
 
 const selectedMap = document.getElementById("mapSelect")?.value || null;
 
 let mapMultiplier = 1; // default
-    if (selectedMap && mapData[champ] && mapData[champ][selectedMap] !== undefined) {
-        mapMultiplier = mapData[champ][selectedMap]; // value from your JSON
-    }
+if (selectedMap && mapData[champ] && mapData[champ][selectedMap] !== undefined) {
+  mapMultiplier = mapData[champ][selectedMap]; // value from your JSON
+}
+let draftProgress = Math.min(totalCount / 10, 1)
+let draftMatchWeight = 0.1 + 0.9 * draftProgress
 
-let role_score = champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted
+let role_score = (champ_tank_adjusted + champ_dps_adjusted + champ_support_adjusted + champ_flex_adjusted + champ_offlane_adjusted) * (1 + draftProgress)
 let stat_score = champ_engage_adjusted + champ_peel_adjusted + champ_waveclear_adjusted + champ_sustain_adjusted
 
-let score = ((((pairScore + matchScore + pickPosition))) * role_score * stat_score * pickPosition) * mapMultiplier + pickPosition
+// Reduce matchup/pairing influence early in the draft via draftMatchWeight.
+let pairingScore = pairScore * draftMatchWeight
+let matchupScoreValue = matchScore * draftMatchWeight
+let baseScore = pairingScore + matchupScoreValue + pickPosition
+let roleBoost = role_score 
+let statBoost = stat_score * 0.5 * (1 + draftProgress)
+let score = (baseScore + roleBoost + statBoost) * mapMultiplier
 
-results.push([champ,score])
+results.push([champ, score, pairingScore, matchupScoreValue, roleBoost, statBoost, mapMultiplier])
 
 }
 
@@ -572,7 +632,15 @@ panel.innerHTML=""
 
 results.forEach(r=>{
 
-let champ = champions.find(c=>c.name===r[0])
+let champName = r[0]
+let totalScore = r[1]
+let pairingScore = r[2] ?? 0
+let matchupScoreValue = r[3] ?? 0
+let roleBoost = r[4] ?? 0
+let statBoost = r[5] ?? 0
+let mapMultiplier = r[6] ?? 1
+
+let champ = champions.find(c=>c.name===champName)
 
 if(!champ) return
 
@@ -582,7 +650,14 @@ card.className="rec-card"
 card.innerHTML=`
 <img src="${champ.icon}">
 <div>${champ.name}</div>
-<div class="rec-score">${r[1].toFixed(1)}</div>
+<div class="rec-score">${totalScore.toFixed(1)}</div>
+<div class="score-tooltip">
+  <div><strong>Pairing:</strong> ${pairingScore.toFixed(2)}</div>
+  <div><strong>Matchup:</strong> ${matchupScoreValue.toFixed(2)}</div>
+  <div><strong>Role:</strong> ${roleBoost.toFixed(2)}</div>
+  <div><strong>Stat:</strong> ${statBoost.toFixed(2)}</div>
+  <div><strong>Map Multiplier:</strong> ${mapMultiplier.toFixed(2)}</div>
+</div>
 `
 
 panel.appendChild(card)

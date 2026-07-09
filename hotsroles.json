@@ -154,15 +154,15 @@
   {
     "Hero Name": "Dehaka",
     "Healer": 0,
-    "Tank": 5,
+    "Tank": 2,
     "RangedDPS": 0,
-    "Flex": 3,
-    "Offlane": 9
+    "Flex": 2,
+    "Offlane": 7
   },
   {
     "Hero Name": "Diablo",
     "Healer": 0,
-    "Tank": 7,
+    "Tank": 7.5,
     "RangedDPS": 0,
     "Flex": 0,
     "Offlane": 0
@@ -252,7 +252,7 @@
     "Healer": 0,
     "Tank": 0,
     "RangedDPS": 0,
-    "Flex": 5,
+    "Flex": 4,
     "Offlane": 9
   },
   {
@@ -330,9 +330,9 @@
   {
     "Hero Name": "Leoric",
     "Healer": 0,
-    "Tank": 5,
+    "Tank": 4.5,
     "RangedDPS": 0,
-    "Flex": 4,
+    "Flex": 3,
     "Offlane": 9
   },
   {
@@ -378,15 +378,15 @@
   {
     "Hero Name": "Maiev",
     "Healer": 0,
-    "Tank": 6,
+    "Tank": 4,
     "RangedDPS": 0,
     "Flex": 8.25,
-    "Offlane": 2
+    "Offlane": 1
   },
   {
     "Hero Name": "MalGanis",
     "Healer": 0,
-    "Tank": 4,
+    "Tank": 3,
     "RangedDPS": 0,
     "Flex": 0,
     "Offlane": 0
@@ -475,8 +475,8 @@
     "Hero Name": "Probius",
     "Healer": 0,
     "Tank": 0,
-    "RangedDPS": 2,
-    "Flex": 4,
+    "RangedDPS": 1,
+    "Flex": 2,
     "Offlane": 0
   },
   {
@@ -508,8 +508,8 @@
     "Healer": 7.5,
     "Tank": 0,
     "RangedDPS": 0,
-    "Flex": 1,
-    "Offlane": 2
+    "Flex": 0,
+    "Offlane": 1
   },
   {
     "Hero Name": "Rexxar",
@@ -524,16 +524,16 @@
     "Healer": 0,
     "Tank": 0,
     "RangedDPS": 0,
-    "Flex": 2,
-    "Offlane": 6
+    "Flex": 1,
+    "Offlane": 5.5
   },
   {
     "Hero Name": "Sgt. Hammer",
     "Healer": 0,
     "Tank": 0,
-    "RangedDPS": 6.5,
-    "Flex": 3,
-    "Offlane": 3
+    "RangedDPS": 5.5,
+    "Flex": 0,
+    "Offlane": 1
   },
   {
     "Hero Name": "Sonya",
@@ -604,7 +604,7 @@
     "Healer": 0,
     "Tank": 0,
     "RangedDPS": 3,
-    "Flex": 7,
+    "Flex": 8,
     "Offlane": 0
   },
   {
@@ -633,7 +633,7 @@
   },
   {
     "Hero Name": "Uther",
-    "Healer": 4,
+    "Healer": 5,
     "Tank": 5.5,
     "RangedDPS": 0,
     "Flex": 0,

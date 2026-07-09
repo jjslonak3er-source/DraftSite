@@ -30,7 +30,7 @@ display:flex;
 justify-content:space-around;
 align-items:flex-start;
 
-padding:20px;
+padding: 20px;
 
 }
 
@@ -115,6 +115,61 @@ CHAMPION AREA
 
 .champion-area{
 width:45%;
+}
+
+/* -----------------------
+BAN AREA
+----------------------- */
+
+.ban-area{
+margin: 8px auto 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0 12px;
+width: 100%;
+max-width: 100%;
+}
+
+.ban-area h3{
+margin: 0 0 6px;
+font-size: 14px;
+color: #ddd;
+}
+
+.ban-row{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-wrap: nowrap;
+overflow-x: auto;
+padding-bottom: 4px;
+}
+
+.ban-slot{
+width: 64px !important;
+height: 64px !important;
+min-width: 64px !important;
+min-height: 64px !important;
+margin: 0;
+border-radius: 6px;
+flex: 0 0 auto;
+display: block;
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
+aspect-ratio: 1 / 1;
+}
+
+.ban-slot img{
+object-fit: cover;
+object-position: center 20%;
+}
+
+.ban-slot .champ-name{
+font-size: 10px;
+padding: 4px 4px;
 }
 
 /* -----------------------
@@ -271,11 +326,14 @@ flex-direction:row;
 gap:14px;
 
 overflow-x:auto;
-overflow-y:hidden;
+overflow-y:visible;
 
 padding:10px;
 
 width:80%;
+
+position:relative;
+z-index:1;
 
 }
 
@@ -349,6 +407,7 @@ RECOMMENDATION CARD
 flex:0 0 auto;
 
 width:90px;
+position:relative;
 
 display:flex;
 flex-direction:column;
@@ -384,6 +443,36 @@ opacity:0.8;
 
 margin-top:2px;
 
+}
+
+.score-tooltip{
+position:absolute;
+top:calc(100% + 8px);
+left:50%;
+transform:translateX(-50%) translateY(4px);
+z-index:999;
+background:rgba(15, 15, 18, 0.98);
+border:1px solid #777;
+border-radius:8px;
+padding:8px 10px;
+font-size:11px;
+line-height:1.4;
+min-width:130px;
+box-shadow:0 8px 22px rgba(0,0,0,0.45);
+opacity:0;
+pointer-events:none;
+transition:opacity 0.15s ease, transform 0.15s ease;
+white-space:nowrap;
+}
+
+.rec-card:hover .score-tooltip{
+opacity:1;
+transform:translateX(-50%) translateY(0);
+}
+
+.rec-card:hover .score-tooltip{
+opacity:1;
+transform:translateY(0);
 }
 
 
