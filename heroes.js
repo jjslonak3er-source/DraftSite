@@ -5,7 +5,7 @@ const champions = [
   },
   {
     name: "Alarak",
-    icon: "https://www.heroesprofile.com/images/heroes/alarak.png"
+    icon: "https://liquipedia.net/commons/images/2/2c/Alarak.jpg"
   },
   {
     name: "Alexstrasza",
