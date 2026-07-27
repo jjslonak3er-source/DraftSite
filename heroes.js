@@ -1,15 +1,15 @@
 const champions = [
   {
     name: "Abathur",
-    icon: "https://liquipedia.net/commons/images/6/68/Abathur.jpg"
+    icon: "https://static.icy-veins.com/images/heroes/hero-portraits/abathur.jpg"
   },
   {
     name: "Alarak",
-    icon: "https://liquipedia.net/commons/images/2/2c/Alarak.jpg"
+    icon: "https://static.icy-veins.com/images/heroes/hero-portraits/alarak.jpg"
   },
   {
     name: "Alexstrasza",
-    icon: "https://www.heroesprofile.com/images/heroes/alexstrasza.png"
+    icon: "https://static.icy-veins.com/images/heroes/hero-portraits/alexstrasza.jpg"
   },
   {
     name: "Ana",
