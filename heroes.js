@@ -1,7 +1,7 @@
 const champions = [
   {
     name: "Abathur",
-    icon: "https://static.icy-veins.com/images/heroes/hero-portraits/abathur.jpg"
+    icon: "https://liquipedia.net/commons/images/6/68/Abathur.jpg"
   },
   {
     name: "Alarak",
