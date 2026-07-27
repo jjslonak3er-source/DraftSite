@@ -1,362 +1,92 @@
 const champions = [
-  {
-    name: "Abathur",
-    icon: "https://static.icy-veins.com/images/heroes/hero-portraits/abathur.jpg"
-  },
-  {
-    name: "Alarak",
-    icon: "https://static.icy-veins.com/images/heroes/hero-portraits/alarak.jpg"
-  },
-  {
-    name: "Alexstrasza",
-    icon: "https://static.icy-veins.com/images/heroes/hero-portraits/alexstrasza.jpg"
-  },
-  {
-    name: "Ana",
-    icon: "https://www.heroesprofile.com/images/heroes/ana.png"
-  },
-  {
-    name: "Anduin",
-    icon: "https://www.heroesprofile.com/images/heroes/anduin.png"
-  },
-  {
-    name: "Anub'arak",
-    icon: "https://www.heroesprofile.com/images/heroes/anubarak.png"
-  },
-  {
-    name: "Artanis",
-    icon: "https://www.heroesprofile.com/images/heroes/artanis.png"
-  },
-  {
-    name: "Arthas",
-    icon: "https://www.heroesprofile.com/images/heroes/arthas.png"
-  },
-  {
-    name: "Auriel",
-    icon: "https://www.heroesprofile.com/images/heroes/auriel.png"
-  },
-  {
-    name: "Azmodan",
-    icon: "https://www.heroesprofile.com/images/heroes/azmodan.png"
-  },
-  {
-    name: "Blaze",
-    icon: "https://www.heroesprofile.com/images/heroes/blaze.png"
-  },
-  {
-    name: "Brightwing",
-    icon: "https://www.heroesprofile.com/images/heroes/brightwing.png"
-  },
-  {
-    name: "Cassia",
-    icon: "https://www.heroesprofile.com/images/heroes/cassia.png"
-  },
-  {
-    name: "Chen",
-    icon: "https://www.heroesprofile.com/images/heroes/chen.png"
-  },
-  {
-    name: "Cho",
-    icon: "https://www.heroesprofile.com/images/heroes/cho.png"
-  },
-  {
-    name: "Chromie",
-    icon: "https://www.heroesprofile.com/images/heroes/chromie.png"
-  },
-  {
-    name: "D.Va",
-    icon: "https://www.heroesprofile.com/images/heroes/dva.png"
-  },
-  {
-    name: "Deathwing",
-    icon: "https://www.heroesprofile.com/images/heroes/deathwing.png"
-  },
-  {
-    name: "Deckard",
-    icon: "https://www.heroesprofile.com/images/heroes/deckard.png"
-  },
-  {
-    name: "Dehaka",
-    icon: "https://www.heroesprofile.com/images/heroes/dehaka.png"
-  },
-  {
-    name: "Diablo",
-    icon: "https://www.heroesprofile.com/images/heroes/diablo.png"
-  },
-  {
-    name: "E.T.C.",
-    icon: "https://www.heroesprofile.com/images/heroes/etc.png"
-  },
-  {
-    name: "Falstad",
-    icon: "https://www.heroesprofile.com/images/heroes/falstad.png"
-  },
-  {
-    name: "Fenix",
-    icon: "https://www.heroesprofile.com/images/heroes/fenix.png"
-  },
-  {
-    name: "Gall",
-    icon: "https://www.heroesprofile.com/images/heroes/gall.png"
-  },
-  {
-    name: "Garrosh",
-    icon: "https://www.heroesprofile.com/images/heroes/garrosh.png"
-  },
-  {
-    name: "Gazlowe",
-    icon: "https://www.heroesprofile.com/images/heroes/gazlowe.png"
-  },
-  {
-    name: "Genji",
-    icon: "https://www.heroesprofile.com/images/heroes/genji.png"
-  },
-  {
-    name: "Greymane",
-    icon: "https://www.heroesprofile.com/images/heroes/greymane.png"
-  },
-  {
-    name: "Gul'dan",
-    icon: "https://www.heroesprofile.com/images/heroes/guldan.png"
-  },
-  {
-    name: "Hanzo",
-    icon: "https://www.heroesprofile.com/images/heroes/hanzo.png"
-  },
-  {
-    name: "Hogger",
-    icon: "https://www.heroesprofile.com/images/heroes/hogger.png"
-  },
-  {
-    name: "Illidan",
-    icon: "https://www.heroesprofile.com/images/heroes/illidan.png"
-  },
-  {
-    name: "Imperius",
-    icon: "https://www.heroesprofile.com/images/heroes/imperius.png"
-  },
-  {
-    name: "Jaina",
-    icon: "https://www.heroesprofile.com/images/heroes/jaina.png"
-  },
-  {
-    name: "Johanna",
-    icon: "https://www.heroesprofile.com/images/heroes/johanna.png"
-  },
-  {
-    name: "Junkrat",
-    icon: "https://www.heroesprofile.com/images/heroes/junkrat.png"
-  },
-  {
-    name: "Kael'thas",
-    icon: "https://www.heroesprofile.com/images/heroes/kaelthas.png"
-  },
-  {
-    name: "Kel'Thuzad",
-    icon: "https://www.heroesprofile.com/images/heroes/kelthuzad.png"
-  },
-  {
-    name: "Kerrigan",
-    icon: "https://www.heroesprofile.com/images/heroes/kerrigan.png"
-  },
-  {
-    name: "Kharazim",
-    icon: "https://www.heroesprofile.com/images/heroes/kharazim.png"
-  },
-  {
-    name: "Leoric",
-    icon: "https://www.heroesprofile.com/images/heroes/leoric.png"
-  },
-  {
-    name: "Li Li",
-    icon: "https://www.heroesprofile.com/images/heroes/lili.png"
-  },
-  {
-    name: "Li-Ming",
-    icon: "https://www.heroesprofile.com/images/heroes/liming.png"
-  },
-  {
-    name: "Lt. Morales",
-    icon: "https://www.heroesprofile.com/images/heroes/ltmorales.png"
-  },
-  {
-    name: "L?cio",
-    icon: "https://www.heroesprofile.com/images/heroes/lucio.png"
-  },
-  {
-    name: "Lunara",
-    icon: "https://www.heroesprofile.com/images/heroes/lunara.png"
-  },
-  {
-    name: "Maiev",
-    icon: "https://www.heroesprofile.com/images/heroes/maiev.png"
-  },
-  {
-    name: "MalGanis",
-    icon: "https://www.heroesprofile.com/images/heroes/malganis.png"
-  },
-  {
-    name: "Malfurion",
-    icon: "https://www.heroesprofile.com/images/heroes/malfurion.png"
-  },
-  {
-    name: "Malthael",
-    icon: "https://www.heroesprofile.com/images/heroes/malthael.png"
-  },
-  {
-    name: "Medivh",
-    icon: "https://www.heroesprofile.com/images/heroes/medivh.png"
-  },
-  {
-    name: "Mei",
-    icon: "https://www.heroesprofile.com/images/heroes/mei.png"
-  },
-  {
-    name: "Mephisto",
-    icon: "https://www.heroesprofile.com/images/heroes/mephisto.png"
-  },
-  {
-    name: "Muradin",
-    icon: "https://www.heroesprofile.com/images/heroes/muradin.png"
-  },
-  {
-    name: "Murky",
-    icon: "https://www.heroesprofile.com/images/heroes/murky.png"
-  },
-  {
-    name: "Nazeebo",
-    icon: "https://www.heroesprofile.com/images/heroes/nazeebo.png"
-  },
-  {
-    name: "Nova",
-    icon: "https://www.heroesprofile.com/images/heroes/nova.png"
-  },
-  {
-    name: "Orphea",
-    icon: "https://www.heroesprofile.com/images/heroes/orphea.png"
-  },
-  {
-    name: "Probius",
-    icon: "https://www.heroesprofile.com/images/heroes/probius.png"
-  },
-  {
-    name: "Qhira",
-    icon: "https://www.heroesprofile.com/images/heroes/qhira.png"
-  },
-  {
-    name: "Ragnaros",
-    icon: "https://www.heroesprofile.com/images/heroes/ragnaros.png"
-  },
-  {
-    name: "Raynor",
-    icon: "https://www.heroesprofile.com/images/heroes/raynor.png"
-  },
-  {
-    name: "Rehgar",
-    icon: "https://www.heroesprofile.com/images/heroes/rehgar.png"
-  },
-  {
-    name: "Rexxar",
-    icon: "https://www.heroesprofile.com/images/heroes/rexxar.png"
-  },
-  {
-    name: "Samuro",
-    icon: "https://www.heroesprofile.com/images/heroes/samuro.png"
-  },
-  {
-    name: "Sgt. Hammer",
-    icon: "https://www.heroesprofile.com/images/heroes/sgthammer.png"
-  },
-  {
-    name: "Sonya",
-    icon: "https://www.heroesprofile.com/images/heroes/sonya.png"
-  },
-  {
-    name: "Stitches",
-    icon: "https://www.heroesprofile.com/images/heroes/stitches.png"
-  },
-  {
-    name: "Stukov",
-    icon: "https://www.heroesprofile.com/images/heroes/stukov.png"
-  },
-  {
-    name: "Sylvanas",
-    icon: "https://www.heroesprofile.com/images/heroes/sylvanas.png"
-  },
-  {
-    name: "Tassadar",
-    icon: "https://www.heroesprofile.com/images/heroes/tassadar.png"
-  },
-  {
-    name: "The Butcher",
-    icon: "https://www.heroesprofile.com/images/heroes/thebutcher.png"
-  },
-  {
-    name: "The Lost Vikings",
-    icon: "https://www.heroesprofile.com/images/heroes/thelostvikings.png"
-  },
-  {
-    name: "Thrall",
-    icon: "https://www.heroesprofile.com/images/heroes/thrall.png"
-  },
-  {
-    name: "Tracer",
-    icon: "https://www.heroesprofile.com/images/heroes/tracer.png"
-  },
-  {
-    name: "Tychus",
-    icon: "https://www.heroesprofile.com/images/heroes/tychus.png"
-  },
-  {
-    name: "Tyrael",
-    icon: "https://www.heroesprofile.com/images/heroes/tyrael.png"
-  },
-  {
-    name: "Tyrande",
-    icon: "https://www.heroesprofile.com/images/heroes/tyrande.png"
-  },
-  {
-    name: "Uther",
-    icon: "https://www.heroesprofile.com/images/heroes/uther.png"
-  },
-  {
-    name: "Valeera",
-    icon: "https://www.heroesprofile.com/images/heroes/valeera.png"
-  },
-  {
-    name: "Valla",
-    icon: "https://www.heroesprofile.com/images/heroes/valla.png"
-  },
-  {
-    name: "Varian",
-    icon: "https://www.heroesprofile.com/images/heroes/varian.png"
-  },
-  {
-    name: "Whitemane",
-    icon: "https://www.heroesprofile.com/images/heroes/whitemane.png"
-  },
-  {
-    name: "Xul",
-    icon: "https://www.heroesprofile.com/images/heroes/xul.png"
-  },
-  {
-    name: "Yrel",
-    icon: "https://www.heroesprofile.com/images/heroes/yrel.png"
-  },
-  {
-    name: "Zagara",
-    icon: "https://www.heroesprofile.com/images/heroes/zagara.png"
-  },
-  {
-    name: "Zarya",
-    icon: "https://www.heroesprofile.com/images/heroes/zarya.png"
-  },
-  {
-    name: "Zeratul",
-    icon: "https://www.heroesprofile.com/images/heroes/zeratul.png"
-  },
-  {
-    name: "Zul'jin",
-    icon: "https://www.heroesprofile.com/images/heroes/zuljin.png"
-  },
-]
+  { name: "Abathur", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/abathur.jpg" },
+  { name: "Alarak", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/alarak.jpg" },
+  { name: "Alexstrasza", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/alexstrasza.jpg" },
+  { name: "Ana", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/ana.jpg" },
+  { name: "Anduin", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/anduin.jpg" },
+  { name: "Anub'arak", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/anubarak.jpg" },
+  { name: "Artanis", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/artanis.jpg" },
+  { name: "Arthas", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/arthas.jpg" },
+  { name: "Auriel", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/auriel.jpg" },
+  { name: "Azmodan", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/azmodan.jpg" },
+  { name: "Blaze", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/blaze.jpg" },
+  { name: "Brightwing", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/brightwing.jpg" },
+  { name: "Cassia", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/cassia.jpg" },
+  { name: "Chen", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/chen.jpg" },
+  { name: "Cho", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/cho.jpg" },
+  { name: "Chromie", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/chromie.jpg" },
+  { name: "D.Va", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/dva.jpg" },
+  { name: "Deathwing", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/deathwing.jpg" },
+  { name: "Deckard", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/deckard.jpg" },
+  { name: "Dehaka", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/dehaka.jpg" },
+  { name: "Diablo", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/diablo.jpg" },
+  { name: "E.T.C.", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/etc.jpg" },
+  { name: "Falstad", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/falstad.jpg" },
+  { name: "Fenix", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/fenix.jpg" },
+  { name: "Gall", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/gall.jpg" },
+  { name: "Garrosh", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/garrosh.jpg" },
+  { name: "Gazlowe", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/gazlowe.jpg" },
+  { name: "Genji", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/genji.jpg" },
+  { name: "Greymane", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/greymane.jpg" },
+  { name: "Gul'dan", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/guldan.jpg" },
+  { name: "Hanzo", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/hanzo.jpg" },
+  { name: "Hogger", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/hogger.jpg" },
+  { name: "Illidan", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/illidan.jpg" },
+  { name: "Imperius", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/imperius.jpg" },
+  { name: "Jaina", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/jaina.jpg" },
+  { name: "Johanna", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/johanna.jpg" },
+  { name: "Junkrat", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/junkrat.jpg" },
+  { name: "Kael'thas", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/kaelthas.jpg" },
+  { name: "Kel'Thuzad", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/kelthuzad.jpg" },
+  { name: "Kerrigan", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/kerrigan.jpg" },
+  { name: "Kharazim", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/kharazim.jpg" },
+  { name: "Leoric", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/leoric.jpg" },
+  { name: "Li Li", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/li-li.jpg" },
+  { name: "Li-Ming", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/li-ming.jpg" },
+  { name: "Lt. Morales", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/lt-morales.jpg" },
+  { name: "Lúcio", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/lucio.jpg" },
+  { name: "Lunara", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/lunara.jpg" },
+  { name: "Maiev", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/maiev.jpg" },
+  { name: "Mal'Ganis", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/malganis.jpg" },
+  { name: "Malfurion", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/malfurion.jpg" },
+  { name: "Malthael", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/malthael.jpg" },
+  { name: "Medivh", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/medivh.jpg" },
+  { name: "Mei", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/mei.jpg" },
+  { name: "Mephisto", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/mephisto.jpg" },
+  { name: "Muradin", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/muradin.jpg" },
+  { name: "Murky", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/murky.jpg" },
+  { name: "Nazeebo", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/nazeebo.jpg" },
+  { name: "Nova", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/nova.jpg" },
+  { name: "Orphea", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/orphea.jpg" },
+  { name: "Probius", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/probius.jpg" },
+  { name: "Qhira", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/qhira.jpg" },
+  { name: "Ragnaros", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/ragnaros.jpg" },
+  { name: "Raynor", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/raynor.jpg" },
+  { name: "Rehgar", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/rehgar.jpg" },
+  { name: "Rexxar", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/rexxar.jpg" },
+  { name: "Samuro", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/samuro.jpg" },
+  { name: "Sgt. Hammer", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/sgt-hammer.jpg" },
+  { name: "Sonya", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/sonya.jpg" },
+  { name: "Stitches", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/stitches.jpg" },
+  { name: "Stukov", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/stukov.jpg" },
+  { name: "Sylvanas", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/sylvanas.jpg" },
+  { name: "Tassadar", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/tassadar.jpg" },
+  { name: "The Butcher", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/the-butcher.jpg" },
+  { name: "The Lost Vikings", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/the-lost-vikings.jpg" },
+  { name: "Thrall", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/thrall.jpg" },
+  { name: "Tracer", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/tracer.jpg" },
+  { name: "Tychus", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/tychus.jpg" },
+  { name: "Tyrael", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/tyrael.jpg" },
+  { name: "Tyrande", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/tyrande.jpg" },
+  { name: "Uther", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/uther.jpg" },
+  { name: "Valeera", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/valeera.jpg" },
+  { name: "Valla", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/valla.jpg" },
+  { name: "Varian", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/varian.jpg" },
+  { name: "Whitemane", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/whitemane.jpg" },
+  { name: "Xul", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/xul.jpg" },
+  { name: "Yrel", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/yrel.jpg" },
+  { name: "Zagara", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/zagara.jpg" },
+  { name: "Zarya", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/zarya.jpg" },
+  { name: "Zeratul", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/zeratul.jpg" },
+  { name: "Zul'jin", icon: "https://static.icy-veins.com/images/heroes/hero-portraits/zuljin.jpg" },
+];
