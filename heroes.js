@@ -1,7 +1,7 @@
 const champions = [
   {
     name: "Abathur",
-    icon: "https://static.wikia.nocookie.net/allstars_gamepedia/images/d/d8/AbathurArt.jpg/revision/latest/scale-to-width-down/240?cb=20150907202758"
+    icon: "https://static.icy-veins.com/images/heroes/hero-portraits/abathur.jpg"
   },
   {
     name: "Alarak",
