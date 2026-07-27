@@ -435,7 +435,7 @@ const needsAnchorBoost = (selectedMap === 'Dragon Shire') && anchorCountOnBlue <
 
 tank_role_target = 11
 dps_role_target = 11.5
-support_role_target = 9
+support_role_target = 8.5
 flex_role_target = 13
 offlane_role_target = 11.5
 
@@ -471,9 +471,9 @@ final_offlane_value = ((offlane_role_target - min_weight + eps) / (max_weight - 
 Engage peel waveclear sustain  
 */
 engage_target = 20
-peel_target = 18
+peel_target = 17
 waveclear_target = 25
-sustain_target = 15
+sustain_target = 14
 
 
 for(let champ of blue){
